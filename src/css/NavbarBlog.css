@@ -1,0 +1,31 @@
+
+/* NavbarBlog.css */
+.navbar-blog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0; /* Elimina el margen superior e inferior */
+    padding: 0; /* Elimina el espaciado interno */
+  }
+  .navbar-blog a {
+    color: #181818;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25.744px;
+    text-decoration: none;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    margin: 5px; 
+    flex-wrap: wrap;
+    align-content: space-around;
+    transition: color 0.3s; /* Transición de color al pasar el cursor */
+  }
+  
+  .navbar-blog a:hover {
+    color: var(--primary-purple, #7731E4);
+  }
+  

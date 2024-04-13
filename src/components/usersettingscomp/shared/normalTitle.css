@@ -1,0 +1,30 @@
+.normal-title {
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1440px) {
+    .normal-title {
+        font-size: 1.2rem;
+    }
+}
+
+/* laptop */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .normal-title {
+        font-size: 1rem;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .normal-title {
+        font-size: 0.75rem;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+    .normal-title {
+        font-size: 0.875rem;
+    }
+}

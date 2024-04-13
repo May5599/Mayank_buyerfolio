@@ -1,0 +1,54 @@
+/* mainNavbar.css */
+.main-navbar {
+    color: #000;
+    text-align: left;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21.12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .main-navbar .logo img {
+    max-width: 60%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Mantén la proporción de la imagen */
+  }
+  
+  .main-navbar a {
+    text-decoration: none;
+    color: var(--primary-white, #000);
+    font-weight: 400;
+    line-height: 32px;
+    padding: 20px 20px;
+    margin: 20px;
+  }
+  
+  .main-navbar a:hover {
+    background: #FFF;
+    color: #000;
+  }
+  
+  /* Para los botones dentro de los enlaces */
+  .main-navbar .nav-buttons button {
+    color: var(--primary-white, #FFF);
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 32px;
+    background: #000;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .main-navbar .nav-buttons button:hover {
+    background: #FFF;
+    color: #000;
+  }
+  

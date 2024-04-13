@@ -1,0 +1,219 @@
+.location-box button {
+    border-radius: 22px;
+    border: 1px solid var(--primary-purple, #7731E4)
+}
+
+.location-box button:hover {
+    background-color:#7731E4;
+    span {
+        color: white ;
+    } 
+}
+
+.location-box button:active {
+    background-color:#7731E4; 
+}
+
+.location-box button:active span {
+    background-color:#fff; 
+}
+
+.location-box button span {
+    color: #7731E4;
+}
+
+.form-container {
+  margin: 10px auto;
+  padding: 20px;
+}
+
+
+
+/* For small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+    .button-container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .location-box {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /* For medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .button-container {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    .location-box {
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+  
+  /* For large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .button-container {
+      justify-content: center;
+    }
+  }
+  
+/* form7 */
+.rent-box {
+  width:35rem;
+  text-align:left;
+}
+.rent-field{
+  width: 563px;
+  height: 48px;
+}
+
+.form6-container{
+  margin: 10px auto;
+  padding: 20px;
+  background-color: white;
+ }
+
+.option{
+    width: 563px;
+}  
+
+/* form8 */
+.pink-container{
+    background-color:#FFEEF1;
+    padding: 20px;
+    width: 28rem;
+    border-radius: 5px;
+    text-align:center;
+    margin:15px auto 10px;
+   };
+ 
+   
+.banks{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+  }
+.banks img{
+    margin:1.2rem;
+}
+.banks-faq{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #FFD1DA;
+        border-radius:5px;
+        padding:8px;
+        margin:5px;
+        color: #252525;
+        font-size: 1rem;
+        line-height: 40px;
+}
+.banks-faq span{
+    font-size: 10px;
+}
+.form-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0px;
+  }
+  .next-btn{
+      width: 270px;
+      height: 50px;
+  }
+  .skip-btn{
+    width: 270px;
+    height: 50px;
+    background:transparent;
+    border:none;
+    outline:none;
+    display:block;
+    cursor:pointer;
+    font-size: 1.1rem;
+    color:#7731E4;
+    margin-top: 1rem;
+    }
+@media only screen and (max-width : 767px){
+    .rent-box {
+        width:20rem;
+    }
+    .banks{
+        display: flex;
+        justify-content: normal;
+        margin-top: 10px;
+    }
+    .banks img{
+        margin:.4rem;
+        height:3.2rem;
+        width:3.2rem;
+    }
+    .pink-container{
+       width: 18rem;
+    };
+    .option{
+        width: 300px;
+    }  
+       
+    .next-btn, .skip-btn{
+        width: 160px;
+        height: 40px;
+    }
+    
+}
+
+
+.location-box button {
+  border-radius: 22px;
+  border: 1px solid var(--primary-purple, #7731E4)
+}
+
+.location-box button:hover {
+  background-color:#7731E4;
+  span {
+      color: white ;
+  } 
+}
+
+.location-box button:active {
+  background-color:#7731E4; 
+}
+
+.location-box button:active span {
+  background-color:#fff; 
+}
+
+.location-box button span {
+  color: #7731E4;
+}
+
+
+
+/* For small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+  .button-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* For medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .button-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+/* For large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .button-container {
+    justify-content: center;
+  }
+}

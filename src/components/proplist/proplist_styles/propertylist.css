@@ -1,0 +1,27 @@
+/* PropertyList component */
+.props-main{
+  margin:20px;
+}
+.props-main h1{
+  margin:10px;
+}
+.props-list{
+  display:flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+}
+.props-list1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(9em, 1fr));
+  grid-gap: 2rem;
+  place-items: center;
+  margin: auto;
+}
+.preview{
+  margin:20px;
+}
+.preview img{
+	height:300px;
+	width:300px;
+}

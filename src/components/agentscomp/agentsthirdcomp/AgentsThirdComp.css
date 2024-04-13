@@ -1,0 +1,213 @@
+.agents-third-main {
+    background: #191826;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.agents-third-header {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.agents-third-collection {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.agents-third-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.agents-third-post-img {
+    width: 5rem;
+}
+
+.agents-third-post-header {
+    color: #FFF;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.agents-third-post-info {
+    color: #9E98B3;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+@media screen and (min-width: 1440px) {
+    .agents-third-main {
+        height: 100%;
+        padding: 3rem 8rem;
+    }
+
+    .agents-third-header {
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 86.4px;
+    }
+
+    .agents-third-collection {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-evenly;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .agents-third-post-img {
+        width: 5rem;
+    }
+
+    .agents-third-post-header {
+        margin: 0.5rem 0rem;
+        font-size: 1.2rem;
+        font-weight: 700;
+        line-height: 36px;
+    }
+
+    .agents-third-post-info {
+        width: 80%;
+        font-size: 0.9rem;
+    }
+}
+
+/* laptop */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .agents-third-main {
+        height: 100%;
+        padding: 5rem 5rem;
+    }
+
+    .agents-third-header {
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 86.4px;
+    }
+
+    .agents-third-collection {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-evenly;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .agents-third-post-img {
+        width: 5rem;
+    }
+
+    .agents-third-post-header {
+        margin: 0.5rem 0rem;
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 36px;
+    }
+
+    .agents-third-post-info {
+        width: 80%;
+        font-size: 1rem;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .agents-third-main {
+        height: 100%;
+        padding: 5em 5em 1em 5em;
+    }
+
+    .agents-third-header {
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 86.4px;
+    }
+
+    .agents-third-collection {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .agents-third-post {
+        width: 50%;
+        margin-bottom: 3em;
+    }
+
+    .agents-third-post-img {
+        width: 5rem;
+    }
+
+    .agents-third-post-header {
+        margin: 0.5rem 0rem;
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 36px;
+    }
+
+    .agents-third-post-info {
+        width: 80%;
+        font-size: 1rem;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+    .agents-third-main {
+        height: 100%;
+        padding: 5em 3em 1em 3em;
+    }
+
+    .agents-third-header {
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 86.4px;
+    }
+
+    .agents-third-collection {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .agents-third-post {
+        width: 100%;
+        margin-bottom: 3em;
+    }
+
+    .agents-third-post-img {
+        width: 5rem;
+    }
+
+    .agents-third-post-header {
+        margin: 0.5rem 0rem;
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 36px;
+    }
+
+    .agents-third-post-info {
+        width: 80%;
+        font-size: 1rem;
+    }
+}

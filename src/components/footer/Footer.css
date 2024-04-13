@@ -1,0 +1,618 @@
+@media screen and (min-width: 1440px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        font-family: "DM Sans", Helvetica, sans-serif;
+        margin-top: 10rem;
+    }
+
+    .footer-top {
+        position: relative;
+        background-image: url('../../assets/backgrounds/footerbgtop.svg');
+        background-repeat: no-repeat;
+        background-position: top left;
+        height: 20rem;
+        width: 100%;
+    }
+
+    .footer-screen-preview {
+        position: absolute;
+        right: 0rem;
+        width: 37rem;
+        overflow: visible;
+        z-index: 2;
+    }
+
+    .footer-screen-preview img {
+        width: 100%;
+    }
+
+    .footer-app-download {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        bottom: 0em;
+        left: 7.5rem;
+    }
+
+    .footer-app-download-buttons-container {
+        display: flex;
+        gap: 4rem;
+        margin-top: 1rem;
+    }
+
+    .footer-app-download-button {
+        text-transform: none !important;
+        color: #FFF !important;
+        font-family: "DM Sans" !important;
+        padding: 0.7em 2.5em !important;
+        font-size: 20px !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        border-radius: 0.4em !important;
+        border: 2px solid var(--Primary-white, #FFF) !important;
+    }
+
+    .app-download-icon {
+        margin-right: 1.5rem;
+    }
+
+    .footer-app-download-text {
+        color: #FFF;
+        font-family: Anton;
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+    }
+
+    .footer-down {
+        background: #191826;
+        overflow: hidden;
+        display: flex;
+        position: relative;
+        width: 100%;
+        padding-top: 7rem;
+    }
+
+    .footer-logo {
+        margin: 0 4rem 0 4.7rem;
+    }
+
+    .footer-divisions {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 12.5rem;
+        margin-bottom: 11rem;
+    }
+
+    .footer-division {
+        max-width: 300px;
+    }
+
+    .footer-division div {
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    .footer-division ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .footer-division ul span {
+        display: block;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .footer-images {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .footer-images img {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .footer-images img:last-child {
+        margin-right: 0;
+    }
+
+
+    .footer-social-icons {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-social-icons a {
+        display: flex;
+        align-items: center;
+        gap: 2.6rem;
+        color: #fff;
+        font-size: 1rem;
+        text-decoration: none;
+        font-weight: 400;
+        margin-bottom: 1em;
+    }
+
+    .footer-brand-icon {
+        width: 1.5rem;
+        font-size: 1.5rem;
+    }
+}
+
+/* laptop */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        font-family: "DM Sans", Helvetica, sans-serif;
+        margin-top: 10rem;
+    }
+
+    .footer-top {
+        position: relative;
+        background-image: url('../../assets/backgrounds/footerbgtop.svg');
+        background-repeat: no-repeat;
+        background-position: top left;
+        height: 20rem;
+        width: 100%;
+    }
+
+    .footer-screen-preview {
+        position: absolute;
+        right: 0rem;
+        width: 24rem;
+        overflow: visible;
+        z-index: 10;
+    }
+
+    .footer-screen-preview img {
+        width: 100%;
+    }
+
+    .footer-app-download {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        bottom: 0em;
+        left: 7.5rem;
+    }
+
+    .footer-app-download-buttons-container {
+        display: flex;
+        gap: 4rem;
+        margin-top: 1rem;
+    }
+
+    .footer-app-download-button {
+        text-transform: none !important;
+        color: #FFF !important;
+        font-family: "DM Sans" !important;
+        padding: 0.7em 2.5em !important;
+        font-size: 20px !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        border-radius: 0.4em !important;
+        border: 2px solid var(--Primary-white, #FFF) !important;
+    }
+
+    .app-download-icon {
+        margin-right: 1.5rem;
+    }
+
+    .footer-app-download-text {
+        color: #FFF;
+        font-family: Anton;
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+    }
+
+    .footer-down {
+        background: #191826;
+        overflow: hidden;
+        display: flex;
+        position: relative;
+        width: 100%;
+        padding-top: 7rem;
+    }
+
+    .footer-logo {
+        margin: 0 4rem 0 4.7rem;
+    }
+
+    .footer-divisions {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 5rem;
+        margin-bottom: 7rem;
+    }
+
+    .footer-division {
+        max-width: 300px;
+    }
+
+    .footer-division div {
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    .footer-division ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .footer-division ul span {
+        display: block;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .footer-images {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .footer-images img {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .footer-images img:last-child {
+        margin-right: 0;
+    }
+
+
+    .footer-social-icons {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-social-icons a {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        color: #fff;
+        font-size: 1rem;
+        text-decoration: none;
+        font-weight: 400;
+        margin-bottom: 1em;
+    }
+
+    .footer-brand-icon {
+        width: 1.5rem;
+        font-size: 1.5rem;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        font-family: "DM Sans", Helvetica, sans-serif;
+        margin-top: 10rem;
+    }
+
+    .footer-top {
+        position: relative;
+        background-image: url('../../assets/backgrounds/footerbgtop.svg');
+        background-repeat: no-repeat;
+        background-position: top left;
+        height: 20rem;
+        width: 100%;
+    }
+
+    .footer-screen-preview {
+        position: absolute;
+        right: 1rem;
+        width: 20rem;
+        overflow: visible;
+        z-index: 10;
+    }
+
+    .footer-screen-preview img {
+        width: 100%;
+    }
+
+    .footer-app-download {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        bottom: 0em;
+        left: 4rem;
+    }
+
+    .footer-app-download-buttons-container {
+        display: flex;
+        gap: 4rem;
+        margin-top: 1rem;
+    }
+
+    .footer-app-download-button {
+        text-transform: none !important;
+        color: #FFF !important;
+        font-family: "DM Sans" !important;
+        padding: 0.7em 1.7em !important;
+        font-size: 20px !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        border-radius: 0.4em !important;
+        border: 2px solid var(--Primary-white, #FFF) !important;
+    }
+
+    .app-download-icon {
+        margin-right: 1.5rem;
+    }
+
+    .footer-app-download-text {
+        color: #FFF;
+        font-family: Anton;
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+    }
+
+    .footer-down {
+        background: #191826;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        padding-top: 3rem;
+    }
+
+    .footer-logo {
+        margin: 0 0 3rem 4rem;
+    }
+
+    .footer-divisions {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 4.5rem;
+        margin-left: 4rem;
+        margin-bottom: 7rem;
+    }
+
+    .footer-division {
+        max-width: 300px;
+    }
+
+    .footer-division div {
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    .footer-division ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .footer-division ul span {
+        display: block;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .footer-images {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        gap: 2rem;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .footer-images img {
+        max-width: 110%;
+        overflow: hidden;
+    }
+
+    .footer-images img:last-child {
+        margin-right: 0;
+    }
+
+
+    .footer-social-icons {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-social-icons a {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        color: #fff;
+        font-size: 1rem;
+        text-decoration: none;
+        font-weight: 400;
+        margin-bottom: 1em;
+    }
+
+    .footer-brand-icon {
+        width: 1.5rem;
+        font-size: 1.5rem;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        font-family: "DM Sans", Helvetica, sans-serif;
+        margin-top: 10rem;
+    }
+
+    .footer-top {
+        position: relative;
+        background-image: url('../../assets/backgrounds/footerbgtop.svg');
+        background-repeat: no-repeat;
+        background-position: top left;
+        height: 20rem;
+        width: 100%;
+    }
+
+    .footer-screen-preview {
+        position: absolute;
+        top: 5rem;
+        right: 0rem;
+        width: 13rem;
+        overflow: visible;
+        z-index: 10;
+    }
+
+    .footer-screen-preview img {
+        width: 100%;
+    }
+
+    .footer-app-download {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        bottom: 0em;
+        left: 2.2rem;
+    }
+
+    .footer-app-download-buttons-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .footer-app-download-button {
+        text-transform: none !important;
+        color: #FFF !important;
+        font-family: "DM Sans" !important;
+        padding: 0.4em 1.2em !important;
+        font-size: 20px !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        border-radius: 0.4em !important;
+        border: 2px solid var(--Primary-white, #FFF) !important;
+    }
+
+    .app-download-icon {
+        margin-right: 1rem;
+    }
+
+    .footer-app-download-text {
+        color: #FFF;
+        font-family: Anton;
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+    }
+
+    .footer-down {
+        background: #191826;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        padding-top: 3rem;
+    }
+
+    .footer-logo {
+        margin: 1rem 0 3rem 2.2rem;
+    }
+
+    .footer-divisions {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 1.5rem;
+        margin-left: 2.2rem;
+        margin-bottom: 7rem;
+    }
+
+    .footer-division {
+        max-width: 300px;
+    }
+
+    .footer-division div {
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .footer-division ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .footer-division ul span {
+        display: block;
+        font-size: 0.9rem;
+        line-height: 24px;
+    }
+
+    .footer-images {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        gap: 2rem;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .footer-images img {
+        max-width: 110%;
+        overflow: hidden;
+    }
+
+    .footer-images img:last-child {
+        display: none;
+    }
+
+
+    .footer-social-icons {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-social-icons a {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        color: #fff;
+        font-size: 0.9rem;
+        text-decoration: none;
+        font-weight: 400;
+        margin-bottom: 1em;
+    }
+
+    .footer-brand-icon {
+        width: 1.5rem;
+        font-size: 1.5rem;
+    }
+}

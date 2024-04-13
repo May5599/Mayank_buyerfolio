@@ -1,0 +1,133 @@
+.user-settings-right-second-comp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 1em 0 1.5em 1em;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #FFF;
+}
+
+.user-settings-right-second-comp-container-title {
+  margin: 1em 0 1em 0;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.usersettings-right-second-comp-doughnut {
+  position: relative;
+  width: 12em;
+  height: 12em;
+}
+
+.usersettings-right-second-comp-doughnut-value {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1440px) {
+  .user-settings-right-second-comp-container {
+    margin: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .usersettings-right-second-comp-doughnut {
+    position: relative;
+    width: 11em;
+    height: 11em;
+    margin-bottom: 2em;
+  }
+
+  .usersettings-right-second-comp-doughnut-value {
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  .user-settings-right-second-comp-container-title {
+    margin: 1em 0 1em 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+}
+
+/* laptop */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .user-settings-right-second-comp-container {
+    margin: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .usersettings-right-second-comp-doughnut {
+    position: relative;
+    width: 7.5em;
+    height: 7.5em;
+    margin-bottom: 1em;
+  }
+
+  .usersettings-right-second-comp-doughnut-value {
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+
+  .user-settings-right-second-comp-container-title {
+    margin: 1em 0 1em 0;
+    font-weight: 700;
+    font-size: 1em;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .user-settings-right-second-comp-container {
+    margin: 0;
+    width: 100%;
+    height: 48.5%;
+  }
+
+  .usersettings-right-second-comp-doughnut {
+    position: relative;
+    width: 6em;
+    height: 6em;
+  }
+
+  .usersettings-right-second-comp-doughnut-value {
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+
+  .user-settings-right-second-comp-container-title {
+    margin: 1em 0 1em 0;
+    font-weight: 700;
+    font-size: 0.85em;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+  .user-settings-right-second-comp-container {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1em;
+  }
+
+  .usersettings-right-second-comp-doughnut {
+    position: relative;
+    width: 8em;
+    height: 8em;
+  }
+
+  .usersettings-right-second-comp-doughnut-value {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+
+  .user-settings-right-second-comp-container-title {
+    margin: 1em 0 1em 0;
+    font-weight: 700;
+    font-size: 0.9em;
+  }
+}

@@ -1,0 +1,203 @@
+/* similar component */
+.similar-container{
+  font-family: DM Sans;
+  padding:20px;
+}
+.similar-container h3{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  padding-bottom:20px;
+}
+.similar-homes{
+  display:flex;
+}
+.home-card{
+  margin:10px;
+  background: rgba(246, 246, 246, 0.8);
+  padding:5px;
+  padding-bottom:10px;
+ 
+}
+.similar-home{
+  width:19.7rem;
+  font-size: 12px;
+  border:1px lightgrey;
+  border-radius: 8px;
+  line-height: 20px;
+  
+}
+.home-card>.similar-home-price{
+  color: rgba(119, 49, 228, 1);
+  font-weight: 700;
+  font-size: 20px;
+}
+.similar-home-price{
+  display:flex;
+  justify-content: space-between;
+}
+.similar-home-weeks{
+  color: rgba(112, 112, 112, 1);
+  font-weight: 500;
+  font-size: 11px;
+}
+.similar-icons img{
+  height:16px;
+  width:16px;
+}
+.similar-icons span{
+  font-size: 14px;
+  font-weight: 700;
+  margin-right:5px;
+}
+.home-card > .loc-icon{
+ font-size: 12px;
+font-weight: 400;
+
+color: rgba(112, 112, 112, 1);
+}
+.loc-icon img{
+  width: 7.68px;
+  height: 7.68px;
+}
+.google-map{
+  margin:10px;
+  border:1px solid lightgrey;
+  border-radius: 10px;
+}
+
+
+/* ipad pro */
+  @media only screen and (max-width:1366px){
+  .similar-home{
+    width:13rem;
+  }
+}
+/* ipad air */
+  @media only screen and (max-width:1180px){
+  .similar-home{
+    width:10rem;
+   }
+
+}
+/* surface pro */
+  @media only screen and  (max-width:912px){
+  .similar-home{
+      width:15rem;
+    }
+  } 
+  @media only screen and (max-width: 768px){
+  .similar-container{
+    margin-top: 20px;
+    margin-right:20px;
+    }
+  .home-card>.similar-home-price{
+    font-size: 13px;
+  }
+  .similar-home-weeks{
+    font-size: 8px;
+  }
+  .similar-icons span{
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+  }
+  .similar-home{
+    width:12.75rem;
+  }
+  .home-card > .icon{
+    font-size: 10px;
+    line-height: 9px;
+  }
+  .google-map{
+    margin-top:20px;
+    margin-right:30px;
+    border:1px solid lightgrey;
+    border-radius: 10px;
+  }
+  .google-map{
+    margin-right:10px;
+  }
+
+}
+
+  @media only screen and (min-width : 360px) and (max-width : 400px){
+  .similar-container{
+    margin-top: 10px;
+    margin-right:0;
+  }
+  .similar3{
+    display:none;
+  }
+  .similar-container h3{
+    font-size: 20px;
+  }
+  .home-card{
+    margin:.5rem;
+  }
+  .home-card>.similar-home-price{
+    font-size: 14px;
+ }
+  .similar-home-weeks{
+    font-size:9px;
+  }
+  .similar-home{
+    width:9.25rem;
+  }
+  
+  .similar-icons img{
+    height:12px;
+    width:12px;
+  }
+ 
+   
+  .similar-icons span{
+    margin-right: 5px;
+    font-size: 12px;
+  }
+  .home-card > .loc-icon{
+    font-size: 8px;
+}
+}
+	@media only screen and (min-width : 400px) and (max-width : 480px){
+  .similar-container{
+    margin-top: 10px;
+    margin-right:0;
+  }
+  .similar3{
+    display:none;
+  }
+  .similar-container h3{
+    font-size: 20px;
+  }
+  .similar-home{
+     width:10rem;
+  }
+  .home-card{
+    margin:.6rem;
+  }
+  .similar-icons img{
+    height:12px;
+    width:12px;
+  }
+  .similar-icons span{
+    margin-right: 5px;
+    font-size:12px;
+  }
+  .home-card>.similar-home-price{
+    font-size: 14px;
+ }
+  .similar-home-weeks{
+    font-size:9px;
+  }
+  .home-card > .loc-icon{
+    font-size: 9px;
+}
+}
+
+@media only screen and  (min-width : 360px) and (max-width : 360px){
+   .similar-home{
+    width:8.5rem;
+  }
+}

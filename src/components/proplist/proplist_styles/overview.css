@@ -1,0 +1,229 @@
+/* Overview component */
+.overview-container{
+  font-family: DM Sans;
+  padding:20px;
+  font-weight:400;
+  line-height: 20px;
+}
+
+.overview-heading{
+  display: flex;
+  justify-content: space-between;
+}
+
+.overview-heading>h3{
+  font-size: 28px;
+  font-weight: 700;
+}
+.mls{
+  display:flex;
+}
+.mls1, .mls2{
+  font-family: 'raleway';
+  font-size: 20px;
+  color: rgba(37, 37, 37, 1);
+ }
+ .mls-value{
+  font-weight: bolder;
+ }
+
+.mls div{
+  background-color:rgba(119, 49, 228, 0.21);
+  margin-right:10px;
+  height:30px;
+  padding: 5px 11px 5px 11px;
+  border-radius: 25.6px;
+}
+
+.overview-content{
+  margin-top:10px;
+  font-size: 20px;
+  line-height: 31px;
+}
+hr{
+  width:100%;
+}
+.subheading{
+  font-size: 24px;
+}
+
+.score-container{
+  display:flex;
+  justify-content: space-between;
+}
+
+.score{
+  display: flex;
+  margin: 20px;
+}
+
+.score-data{
+  display: flex;
+  flex-direction: column;
+  margin:10px;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+}
+.score-data>.data{
+  font-weight: 400;
+}
+.walking{
+  height:64px;
+  width:51px;
+}
+.bike{
+  height:72px;
+  width:57px;
+}
+.bus{
+  height:64px;
+  width:64px;
+}
+@media only screen and (min-width: 1024px)and  (max-width:1375px){
+  .mls1, .mls2{
+    font-family: 'raleway';
+    font-size: 16px;
+    color: rgba(37, 37, 37, 1);
+   }
+   .score{
+    display: flex;
+    margin: 10px;
+  }
+   .score-data{
+     margin:8px;
+     font-size: 20px;
+  }
+  .score-data>.data{
+    margin-top: 10px;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 760px) and (max-width:1024px){
+  .score{
+    margin: 10px;
+  }
+  .score-data{ 
+    margin-left:10px;
+    font-size: 16px;
+  }
+  .data{
+    font-weight: 500;
+  }
+  .overview-heading>h3{
+    font-size: 22px;
+  }
+  .overview-content{
+    font-size: 16px;
+  }
+  .mls1, .mls2{
+    font-size: 15px;
+  }
+}
+
+@media only screen 
+and (min-width : 320px) and (max-width : 400px){
+  .overview-container{
+    margin-top:10px;
+   }
+  .overview-heading>h3{
+    font-size: 20px;
+  }
+  .mls1, .mls2{
+     font-size:8.5px;
+     }
+     .mls div{
+       margin-right:8px;
+      padding: 5px;
+    
+    }
+  .mls-value{
+    font-weight: bolder;
+   }
+   .overview-content{
+    /* margin-top:10px; */
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .subheading{
+    font-size: 18px;
+    line-height: 10px;
+  }
+  /* .score{
+    margin: 5px;
+  } */
+  .score-data{ 
+    font-size: 10px;
+  }
+  .walking{
+    height:30px;
+    width:24px;
+  }
+  .bike{
+    height:34px;
+    width:26px;
+  }
+  .bus{
+    height:30px;
+    width:30px;
+  }
+  .score{
+     margin: 2px;
+  }
+  .score-icon{
+    margin-top: 10px;
+  }
+  }
+
+  @media only screen 
+and (min-width : 400px) and (max-width : 480px){
+  .overview-container{
+    margin-top:10px;
+   }
+  .overview-heading>h3{
+    font-size: 20px;
+  }
+  .mls1, .mls2{
+     font-size:10px;
+  }
+
+   .mls div{
+    margin-right:8px;
+   padding: 5px 10px;
+ 
+ }
+   .overview-content{
+    /* margin-top:10px; */
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .subheading{
+    font-size: 18px;
+    line-height: 10px;
+  }
+
+  .score-data{ 
+    font-size: 12px;
+  }
+  .walking{
+    height:32px;
+    width:26px;
+  }
+  .bike{
+    height:36px;
+    width:28px;
+  }
+  .bus{
+    height:32px;
+    width:32px;
+  }
+  .score{
+     margin: 4px;
+  }
+  .score-icon{
+    margin-top: 10px;
+  }
+  }

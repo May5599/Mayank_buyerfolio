@@ -1,0 +1,203 @@
+.user-settings-second-comp-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 60vw;
+  height: auto;
+  overflow: hidden;
+}
+
+.user-settings-second-comp-profile-save-button {
+  position: absolute;
+  right: 3.5%;
+  bottom: 5%;
+}
+
+.usersettings-second-comp-second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #FFF;
+  width: 15vw;
+  border-radius: 10px;
+}
+
+.usersettings-second-comp-table-cell {
+  height: 2em;
+}
+
+@media screen and (min-width: 1440px) {
+  .user-settings-second-comp-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    height: auto;
+  }
+
+  .usersettings-second-comp-first {
+    display: flex;
+    width: calc(100% - 26% - 1em);
+    height: auto;
+  }
+
+  .usersettings-second-comp-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+    width: 26%;
+  }
+
+  .usersettings-second-comp-table-cell {
+    font-size: 1.3rem !important;
+    height: 2.3em !important;
+  }
+
+  .usersettings-second-comp-table-container {
+    width: calc(100% - 7em) !important;
+    margin-left: 3.5em !important;
+    margin-right: 3.5em !important;
+    margin-bottom: 1.2em !important;
+  }
+
+  .usersettings-second-comp-table-cell-img {
+    width: 0.9em;
+  }
+
+  .usersettings-second-comp-table-cell-icon {
+    padding: 0.1em !important;
+  }
+}
+
+/* laptop */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .user-settings-second-comp-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    height: auto;
+  }
+
+  .usersettings-second-comp-first {
+    display: flex;
+    width: calc(100% - 26% - 1em);
+    height: auto;
+  }
+
+  .usersettings-second-comp-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+    width: 26%;
+    max-height: 15em;
+  }
+
+  .usersettings-second-comp-table-cell {
+    font-size: 0.9em !important;
+    height: 2em !important;
+  }
+
+  .usersettings-second-comp-table-container {
+    width: calc(100% - 5.2em) !important;
+    margin-left: 2.6em !important;
+    margin-right: 2.6em !important;
+    margin-bottom: 1.2em !important;
+  }
+
+  .usersettings-second-comp-table-cell-img {
+    width: 0.6em;
+  }
+
+  .usersettings-second-comp-table-cell-icon {
+    padding: 0.1em !important;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .user-settings-second-comp-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10.8em;
+  }
+
+  .usersettings-second-comp-first {
+    width: calc(100% - 21.875vw - 1em);
+    height: 100%;
+  }
+
+  .usersettings-second-comp-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+    width: 21.875vw;
+    height: 100%;
+  }
+
+  .usersettings-second-comp-table-cell {
+    font-size: 0.7em !important;
+    height: 2em !important;
+  }
+
+  .usersettings-second-comp-table-container {
+    width: calc(100% - 4em) !important;
+    margin-left: 2em !important;
+    margin-right: 2em !important;
+    margin-bottom: 1.2em !important;
+  }
+
+  .usersettings-second-comp-table-cell-img {
+    width: 0.5em;
+  }
+
+  .usersettings-second-comp-table-cell-icon {
+    padding: 0.1em !important;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+  .user-settings-second-comp-container {
+    width: 100%;
+    min-height: calc(100% / 3.5);
+  }
+
+  .usersettings-second-comp-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .usersettings-second-comp-table-cell {
+    font-size: 0.7em !important;
+  }
+
+  .usersettings-second-comp-table-container {
+    width: calc(100% - 3em) !important;
+    margin-left: 1.5em !important;
+    margin-right: 1.5em !important;
+    margin-bottom: 1em !important;
+  }
+
+  .usersettings-second-comp-table-cell-img {
+    width: 0.5em;
+  }
+
+  .usersettings-second-comp-table-cell-icon {
+    padding: 0.1em !important;
+  }
+}

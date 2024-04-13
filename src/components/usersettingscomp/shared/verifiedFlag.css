@@ -1,0 +1,50 @@
+.verified-flag {
+    border-radius: 20px;
+    padding: 4px 12px;
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1440px) {
+    .verified-flag {
+        border-radius: 20px;
+        padding: 0.4em 0.8em;
+        display: inline-block;
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+}
+
+/* laptop */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .verified-flag {
+        border-radius: 20px;
+        padding: 0.4em 0.8em;
+        display: inline-block;
+        font-size: 0.65rem;
+        font-weight: 700;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .verified-flag {
+        border-radius: 20px;
+        padding: 0.4em 0.8em;
+        display: inline-block;
+        font-size: 0.5rem;
+        font-weight: 700;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+    .verified-flag {
+        border-radius: 20px;
+        padding: 3px 10px;
+        display: inline-block;
+        font-size: 0.7rem;
+        font-weight: 700;
+    }
+}

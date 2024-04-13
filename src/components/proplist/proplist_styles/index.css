@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family:DM Sans;
+}
+
+.overview-container, .highlights-container, .details-container, .similar, .nearby{
+  margin-top: 10px;
+  background-color: white;
+  font-family: sans-serif;
+  padding:20px;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 1024px) {
+  html, body {
+    /* overflow-x: hidden; */
+    overflow-x: clip;
+  }
+  body {
+    position: relative;
+   }
+}
+
+@media only screen and (min-width: 760px) and (max-width:1024px){
+  html, body {
+    overflow-x: clip;
+  }
+  body {
+    position: relative;
+   }
+.overview-container,.desc-container,.highlights-container, .details-container, .similar, .nearby{
+  margin-top: 5px;
+  margin-right:20px;
+  padding:10px;
+  }
+
+}
+@media only screen and (min-width : 320px) and (max-width : 480px){
+  html, body {
+    overflow-x: clip;
+  }
+  body {
+    position: relative;
+  }
+  .overview-container,.highlights-container, .details-container, .similar, .nearby{
+    margin: 0;
+    padding:10px;
+    }
+  }

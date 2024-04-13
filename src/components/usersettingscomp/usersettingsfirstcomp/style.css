@@ -1,0 +1,679 @@
+.user-settings-first-comp-container {
+  position: relative;
+  width: 60vw;
+  height: calc(60vw / 1.83);
+  margin: auto;
+  margin-bottom: 2em;
+  margin-top: 1em;
+  border: 1.253px solid #dedede;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.user-settings-first-comp-profile-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  margin-top: 3.5%;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+}
+
+.user-settings-first-comp-profile-form-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 27%;
+}
+
+.user-settings-first-comp-profile-form>:nth-child(1) {
+  width: 22%;
+}
+
+.user-settings-first-comp-profile-form>:nth-child(2) {
+  width: 27.4%;
+}
+
+.user-settings-first-comp-profile-form>:nth-child(3) {
+  width: 12.5%;
+}
+
+.user-settings-first-comp-profile-form>:nth-child(4) {
+  width: 22%;
+}
+
+.user-settings-first-comp-profile-form-title-line {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.user-settings-first-comp-textfield {
+  width: 100%;
+  height: 89%;
+}
+
+.user-settings-first-comp-textfield .MuiOutlinedInput-root {
+  font-size: 1.25em;
+}
+
+.user-settings-first-comp-textfield .MuiOutlinedInput-root fieldset {
+  border-color: #D9CDCD;
+  border-width: 2px;
+  border-radius: 10px;
+}
+
+.user-settings-first-comp-textfield .MuiOutlinedInput-root:hover fieldset {
+  border-color: #7731E4;
+}
+
+.user-settings-first-comp-textfield .Mui-focused .MuiOutlinedInput-root fieldset {
+  border-color: #7731E4;
+}
+
+
+@media screen and (min-width: 1440px) {
+  .user-settings-first-comp-container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .user-settings-first-comp-upper-rectangle {
+    width: 100%;
+    height: 12em;
+    background-color: #e7e2ef;
+    top: 0;
+  }
+
+  .user-settings-first-comp-profile-image-and-name-and-edit {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 2.6em;
+    top: 3.3em;
+    width: calc(100% - 1.8em);
+    height: 19em;
+  }
+
+  .user-settings-first-comp-profile-image-and-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+  }
+
+  .user-settings-first-comp-image-overlay {
+    border-radius: 50%;
+    width: 14em;
+    height: 14em;
+    background-image: url("https://source.unsplash.com/random");
+    background-size: cover;
+  }
+
+  .user-settings-first-comp-profile-name {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-top: 0;
+  }
+
+  .user-settings-first-comp-profile-edit {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #491798;
+    right: 2.5em;
+    top: 6.2em;
+    width: 3.8em;
+    height: 3.8em;
+    background-color: #fff;
+  }
+
+  .user-settings-first-comp-profile-edit img {
+    width: 90%;
+  }
+
+  .user-settings-first-comp-profile-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 12em;
+    margin-left: 2.8em;
+    margin-right: 2.8em;
+    margin-bottom: 5em;
+    align-content: flex-start;
+    justify-content: space-between;
+  }
+
+  .user-settings-first-comp-profile-form-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 27%;
+    margin-bottom: 0;
+  }
+
+  .user-settings-first-comp-profile-form>:nth-child(1) {
+    width: 24%;
+  }
+
+  .user-settings-first-comp-profile-form>:nth-child(2) {
+    width: 30%;
+  }
+
+  .user-settings-first-comp-profile-form>:nth-child(3) {
+    width: 12%;
+  }
+
+  .user-settings-first-comp-profile-form>:nth-child(4) {
+    width: 26%;
+  }
+
+  .user-settings-first-comp-email-tip {
+    display: flex;
+    margin-top: 0.4em;
+    margin-bottom: 1em;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 100%;
+    width: 120%;
+  }
+
+  .user-settings-first-comp-email-tip div {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 100%;
+    color: #252525;
+  }
+
+  .user-settings-first-comp-profile-form-title-line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0.25em;
+  }
+
+  .user-settings-first-comp-textfield {
+    width: 100%;
+    height: 3.6em;
+    padding: 0;
+  }
+
+  .user-settings-first-comp-textfield .MuiOutlinedInput-root {
+    font-size: 1.25rem;
+    height: 100%;
+    padding: 0;
+  }
+
+  .user-settings-first-comp-textfield .MuiOutlinedInput-root fieldset {
+    border-color: #D9CDCD;
+    border-width: 1.5px;
+    border-radius: 10px;
+    padding: 0;
+  }
+
+  .user-settings-first-comp-save-button {
+    position: absolute;
+    right: 2.8em;
+    bottom: 2em;
+  }
+}
+
+/* laptop */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .user-settings-first-comp-container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .user-settings-first-comp-upper-rectangle {
+    width: 100%;
+    height: 8.8em;
+    background-color: #e7e2ef;
+    top: 0;
+  }
+
+  .user-settings-first-comp-profile-image-and-name-and-edit {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 1.8em;
+    top: 3.5em;
+    width: calc(100% - 1.8em);
+    height: 13.25em;
+  }
+
+  .user-settings-first-comp-profile-image-and-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+  }
+
+  .user-settings-first-comp-image-overlay {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    background-image: url("https://source.unsplash.com/random");
+    background-size: cover;
+  }
+
+  .user-settings-first-comp-profile-name {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-top: 0;
+  }
+
+  .user-settings-first-comp-profile-edit {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #491798;
+    right: 1.8em;
+    top: 3.8em;
+    width: 2.8em;
+    height: 2.8em;
+    background-color: #fff;
+  }
+
+  .user-settings-first-comp-profile-edit img {
+    width: 65%;
+  }
+
+  .user-settings-first-comp-profile-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 9em;
+    margin-left: 1.8em;
+    margin-right: 1.8em;
+    margin-bottom: 5.625em;
+    align-content: flex-start;
+    justify-content: space-between;
+  }
+
+  .user-settings-first-comp-profile-form-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 27%;
+    margin-bottom: 0;
+  }
+
+  .user-settings-first-comp-profile-form>:nth-child(1) {
+    width: 30%;
+  }
+
+  .user-settings-first-comp-profile-form>:nth-child(2) {
+    width: 34%;
+  }
+
+  .user-settings-first-comp-profile-form>:nth-child(3) {
+    width: 12%;
+  }
+
+  .user-settings-first-comp-profile-form>:nth-child(4) {
+    max-width: 19%;
+  }
+
+  .user-settings-first-comp-email-tip {
+    display: flex;
+    margin-top: 0.4em;
+    margin-bottom: 1em;
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 100%;
+    width: 120%;
+  }
+
+  .user-settings-first-comp-email-tip div {
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 100%;
+    color: #252525;
+  }
+
+  .user-settings-first-comp-profile-form-title-line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0.25em;
+  }
+
+  .user-settings-first-comp-textfield {
+    width: 100%;
+    height: 2.8em;
+    padding: 0;
+  }
+
+  .user-settings-first-comp-textfield .MuiOutlinedInput-root {
+    font-size: 0.85rem;
+    height: 100%;
+    padding: 0;
+  }
+
+  .user-settings-first-comp-textfield .MuiOutlinedInput-root fieldset {
+    border-color: #D9CDCD;
+    border-width: 1.5px;
+    border-radius: 6px;
+    padding: 0;
+  }
+
+  .user-settings-first-comp-save-button {
+    position: absolute;
+    right: 1.8em;
+    bottom: 1.2em;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .user-settings-first-comp-container {
+    width: 59vw;
+    width: calc(100% - 21.875vw - 1em);
+    height: 100%;
+    margin: 0;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .user-settings-first-comp-upper-rectangle {
+    width: 100%;
+    height: 6.6em;
+    background-color: #e7e2ef;
+    top: 0;
+  }
+
+  .user-settings-first-comp-profile-image-and-name-and-edit {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 1.8em;
+    top: 3.5em;
+    width: calc(100% - 1.8em);
+    height: 8.5em;
+  }
+
+  .user-settings-first-comp-profile-image-and-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+  }
+
+  .user-settings-first-comp-image-overlay {
+    border-radius: 50%;
+    width: 5.5em;
+    height: 5.5em;
+    background-image: url("https://source.unsplash.com/random");
+    background-size: cover;
+  }
+
+  .user-settings-first-comp-profile-name {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-top: 0;
+  }
+
+  .user-settings-first-comp-profile-edit {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #491798;
+    right: 1.8em;
+    top: 2em;
+    width: 2em;
+    height: 2em;
+    background-color: #fff;
+  }
+
+  .user-settings-first-comp-profile-edit img {
+    width: 65%;
+  }
+
+  .user-settings-first-comp-profile-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 6.6em;
+    margin-left: 1.8em;
+    margin-right: 1.8em;
+    align-content: flex-start;
+    justify-content: flex-start;
+  }
+
+  .user-settings-first-comp-profile-form-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 27%;
+    margin-bottom: 0;
+  }
+
+  .user-settings-first-comp-profile-form>:nth-child(1) {
+    min-width: 8.75em;
+    width: 35%;
+  }
+
+  .user-settings-first-comp-profile-form>:nth-child(2) {
+    min-width: 11em;
+    margin-left: 1em;
+    width: 50%;
+  }
+
+  .user-settings-first-comp-profile-form>:nth-child(3) {
+    min-width: 5em;
+    width: 20%;
+  }
+
+  .user-settings-first-comp-profile-form>:nth-child(4) {
+    min-width: 9.25em;
+    max-width: 60%;
+    margin-left: 1em;
+  }
+
+  .user-settings-first-comp-email-tip {
+    display: flex;
+    margin-top: 0.4em;
+    margin-bottom: 1em;
+    font-size: 0.5rem;
+    font-weight: 400;
+    line-height: 100%;
+  }
+
+  .user-settings-first-comp-email-tip div {
+    font-size: 0.5rem;
+    font-weight: 400;
+    line-height: 100%;
+    color: #252525;
+  }
+
+  .user-settings-first-comp-profile-form-title-line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0.25em;
+  }
+
+  .user-settings-first-comp-textfield {
+    width: 100%;
+    height: 2em;
+    padding: 0;
+  }
+
+  .user-settings-first-comp-textfield .MuiOutlinedInput-root {
+    font-size: 0.625rem;
+    height: 100%;
+    padding: 0;
+  }
+
+  .user-settings-first-comp-textfield .MuiOutlinedInput-root fieldset {
+    border-color: #D9CDCD;
+    border-width: 1.5px;
+    border-radius: 6px;
+    padding: 0;
+  }
+
+  .user-settings-first-comp-save-button {
+    position: absolute;
+    right: 0.8em;
+    bottom: 1em;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+  .user-settings-first-comp-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+    margin-top: 0;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .user-settings-first-comp-upper-rectangle {
+    width: 100%;
+    height: 6.6em;
+    background-color: #e7e2ef;
+    top: 0;
+  }
+
+  .user-settings-first-comp-profile-image-and-name-and-edit {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 1.8em;
+    top: 3.5em;
+    width: calc(100% - 1.8em);
+    height: 8.5em;
+  }
+
+  .user-settings-first-comp-profile-image-and-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+  }
+
+  .user-settings-first-comp-image-overlay {
+    border-radius: 50%;
+    width: 5.5em;
+    height: 5.5em;
+    background-image: url("https://source.unsplash.com/random");
+    background-size: cover;
+  }
+
+  .user-settings-first-comp-profile-name {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-top: 0;
+  }
+
+  .user-settings-first-comp-profile-edit {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #491798;
+    right: 1.8em;
+    top: 2em;
+    width: 2em;
+    height: 2em;
+    background-color: #fff;
+  }
+
+  .user-settings-first-comp-profile-edit img {
+    width: 65%;
+  }
+
+  .user-settings-first-comp-profile-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 7em;
+    margin-left: 1.8em;
+    margin-right: 1.8em;
+    align-content: flex-start;
+    justify-content: flex-start;
+  }
+
+  .user-settings-first-comp-profile-form-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 27%;
+    margin-bottom: 1em;
+  }
+
+  .user-settings-first-comp-profile-form>:nth-child(1) {
+    min-width: 50%;
+    width: 11em;
+  }
+
+  .user-settings-first-comp-profile-form>:nth-child(2) {
+    min-width: 70%;
+    width: 16em;
+    max-width: 90%;
+  }
+
+  .user-settings-first-comp-profile-form>:nth-child(3) {
+    min-width: 31%;
+    width: 6em;
+    max-width: 30%;
+  }
+
+  .user-settings-first-comp-profile-form>:nth-child(4) {
+    width: 10em;
+    min-width: 50%;
+    margin-left: 1em;
+  }
+
+  .user-settings-first-comp-email-tip {
+    display: flex;
+    margin-top: 0.1em;
+    font-size: 0.75rem;
+  }
+
+  .user-settings-first-comp-email-tip div {
+    font-weight: 400;
+    color: #252525;
+  }
+
+
+  .user-settings-first-comp-profile-form-title-line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0.25em;
+  }
+
+  .user-settings-first-comp-textfield .MuiOutlinedInput-root {
+    font-size: 1rem;
+    height: 2.5em;
+  }
+
+  .user-settings-first-comp-save-button {
+    position: static;
+    margin: 1em 0 2em 1.8em;
+  }
+}

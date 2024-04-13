@@ -1,0 +1,11 @@
+.form5-btn{
+    width: 563px;
+    padding: 16px 205px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 47px;
+    border: 2.375px solid #E7E7E7;
+    margin-bottom: 10px;
+    color: black;
+}

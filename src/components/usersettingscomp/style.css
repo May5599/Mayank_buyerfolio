@@ -1,0 +1,232 @@
+.user-settings-container {
+  display: flex;
+}
+
+
+
+@media screen and (min-width: 1440px) {
+
+  .user-settings-extra-first,
+  .user-settings-extra-second,
+  .user-settings-extra-third,
+  .user-settings-tablet-extra-first,
+  .user-settings-tablet-first-container {
+    display: none;
+  }
+
+  .user-settings-container {
+    justify-content: center;
+    align-items: start;
+    gap: 1em;
+  }
+
+  .user-settings-left-container {
+    width: 20vw;
+  }
+
+  .user-settings-middle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    margin-top: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 1em;
+  }
+
+  .user-settings-right-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    width: 15.7vw;
+    gap: 1.5em;
+  }
+
+  .user-settings-tablet-first-container {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .user-settings-second-comp-page-container {
+    width: 100%
+  }
+
+  .user-settings-tablet-normal-container {
+    width: 100%;
+  }
+}
+
+/* laptop */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+  .user-settings-extra-first,
+  .user-settings-extra-second,
+  .user-settings-extra-third,
+  .user-settings-tablet-extra-first,
+  .user-settings-tablet-first-container {
+    display: none;
+  }
+
+  .user-settings-container {
+    justify-content: center;
+    align-items: start;
+    gap: 1em;
+  }
+
+  .user-settings-left-container {
+    width: 20vw;
+  }
+
+  .user-settings-middle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    margin-top: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 1em;
+  }
+
+  .user-settings-right-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    width: 15.7vw;
+    gap: 1.5em;
+  }
+
+  .user-settings-tablet-first-container {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .user-settings-second-comp-page-container {
+    width: 100%
+  }
+
+  .user-settings-tablet-normal-container {
+    width: 100%;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .user-settings-extra-first,
+  .user-settings-extra-second,
+  .user-settings-extra-third {
+    display: none;
+  }
+
+  .user-settings-container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .user-settings-left-container {
+    width: 11vw;
+  }
+
+  .user-settings-middle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% - 11vw - 2em);
+    margin-left: 1em;
+    margin-right: 2em;
+    gap: 1em;
+  }
+
+  .user-settings-right-container {
+    display: none;
+  }
+
+  .user-settings-tablet-first-container {
+    display: flex;
+    justify-content: space-between;
+    height: 21.625em;
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  .user-settings-tablet-extra-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 21.875vw;
+  }
+
+  .user-settings-second-comp-page-container {
+    width: 100%
+  }
+
+  .user-settings-tablet-normal-container {
+    width: 100%;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+  .user-settings-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .user-settings-left-container {
+    display: none;
+  }
+
+  .user-settings-tablet-extra-first {
+    display: none;
+  }
+
+  .user-settings-second-comp-page-container {
+    display: none;
+  }
+
+  .user-settings-middle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5em 2em;
+    width: calc(100% - 4em);
+  }
+
+  .user-settings-extra-first {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .user-settings-extra-third {
+    width: 100%;
+    margin: 0;
+    height: auto;
+  }
+
+  .user-settings-extra-second {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 0 1rem 0;
+    height: 12.5em;
+  }
+
+  .user-settings-right-container {
+    display: none;
+  }
+
+  .user-settings-tablet-normal-container {
+    width: 100%;
+  }
+}

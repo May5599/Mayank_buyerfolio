@@ -1,0 +1,211 @@
+/* details component */
+.details-container{
+  font-family: DM Sans;
+  padding:20px;
+}
+.details-container h3{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  padding-bottom:20px;
+}
+.details-interior-container h2{
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.10000000149011612px;
+}
+.rooms{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position:relative;
+ 
+}
+.rooms h5, .rooms3>h5{
+  font-size: 22px;
+  line-height: 30px;
+}
+.rooms1, .rooms2{
+  width:50%;
+  margin-bottom:20px;
+  position:relative;
+ }
+.rooms2{
+  padding-left: 100px;
+}
+.rooms3{
+  margin-bottom:20px;
+}
+
+ .align{
+    margin-left:10px;
+    font-family: Raleway;
+    font-weight: 400;
+  }
+
+  .rooms p, .rooms3 p{
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin:5px;
+  }
+  .bdiv1{
+    display:block;
+    width:50%;
+    height:10%;
+    position:relative;
+    margin-top:-25px; 
+    left:110px;
+  }
+
+  .bdiv2{
+    display:block;
+    width:50%;
+    height:10%;
+    position:relative;
+    margin-top:-22px; 
+    left:110px;
+  }
+  .bdiv3{
+    display:block;
+    width:14%;
+    height:10%;
+    position:relative;
+    margin-top:-25px; 
+    left:300px;
+  }
+.download, a{
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 10px;
+}
+.download{
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+}
+a{
+  font-weight: 700;
+  color: black;
+}
+.lock{
+  width:26px;
+  height:30px;
+}
+.point1{
+  display:none;
+}
+
+@media only screen and (min-width: 760px) and (max-width:1024px){
+  .details-container{
+    margin-top: 20px;
+  }
+.details-container h3{
+  font-size: 22px;
+}
+.details-interiot-container h2{
+  font-size: 19px;
+}
+.rooms h5, .rooms3>h5{
+  font-size: 16px;
+
+}
+.rooms2{
+  padding-left: 40px;
+}
+.rooms p, .rooms3 p{
+   font-size: 15px;
+}
+.bdiv1, .bdiv2{
+  width:200px;
+  margin-top:-25px; 
+  left:100px;
+}
+.bdiv3{
+  margin-top:-25px; 
+  left:250px;
+}
+.lock{
+  width:22px;
+  height:26px;
+}
+}
+
+@media only screen and (min-width : 320px) and (max-width: 480px){
+  .details-container{
+    margin-top: 10px;
+  }
+  .details-container h3{
+    font-size: 20px;
+    text-align: center;
+    
+  }
+  .details-interior-container h2{
+    font-size: 18px;
+  }
+  .rooms{
+    display:flex;
+    flex-direction: column;
+  } 
+   .rooms1, .rooms2{
+    width:100%;
+    margin-bottom:4px;
+  }
+  .rooms2{
+    padding-left:0px;
+  }
+  .rooms3{
+    margin-bottom:5px;
+  }
+  .key-value{
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+   }
+   .rooms p, .rooms3 p{
+    font-size: 15px;
+    line-height: 24px;
+   }
+  .bdiv1{
+    width:50%;
+    margin-top:-15px; 
+    left: 15px;
+    text-align: right;
+  }
+  .bdiv2{
+    display:block;
+    width:50%;
+    height: 10%;
+    position:relative;
+    margin-top:-8px; 
+    left:10px;
+    text-align: right;
+  }
+  .download, a{
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .lock{
+    width:14px;
+    height:18px;
+  }
+  .point{
+    display:none;
+  }
+  .point1{
+    display:inline-block;
+    height:15px;
+    width:15px;
+  }
+}
+@media only screen 
+and (min-width : 320px) and (max-width : 400px){
+  .rooms p, .rooms3 p{
+    font-size: 14px;
+    line-height: 22px;
+   }
+}

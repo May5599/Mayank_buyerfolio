@@ -1,0 +1,143 @@
+.user-settings-third-comp-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 60vw;
+  min-height: calc(60vw / 4);
+  height: 1px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.usersettings-third-comp-table-cell {
+  height: 2.5em;
+}
+
+@media screen and (min-width: 1440px) {
+  .user-settings-third-comp-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  .usersettings-third-comp-table-container {
+    width: calc(100% - 7em) !important;
+    margin-left: 3.5em !important;
+    margin-right: 3.5em !important;
+    margin-bottom: 1em !important;
+  }
+
+  .usersettings-third-comp-table-cell {
+    font-size: 1.3rem !important;
+    height: 2.3em !important;
+  }
+
+  .usersettings-third-comp-table-cell-img {
+    width: 0.9em;
+  }
+
+  .usersettings-third-comp-table-cell-icon {
+    padding: 0.4em !important;
+  }
+}
+
+/* laptop */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .user-settings-third-comp-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  .usersettings-third-comp-table-container {
+    width: calc(100% - 5.2em) !important;
+    margin-left: 2.6em !important;
+    margin-right: 2.6em !important;
+    margin-bottom: 1em !important;
+  }
+
+  .usersettings-third-comp-table-cell {
+    font-size: 1.1rem !important;
+    height: 2.5em !important;
+  }
+
+  .usersettings-third-comp-table-cell-img {
+    width: 0.7em;
+  }
+
+  .usersettings-third-comp-table-cell-icon {
+    padding: 0.2em !important;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .user-settings-third-comp-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  .usersettings-third-comp-table-container {
+    width: calc(100% - 4em) !important;
+    margin-left: 2em !important;
+    margin-right: 2em !important;
+    margin-bottom: 1em !important;
+  }
+
+  .usersettings-third-comp-table-cell {
+    font-size: 0.75rem !important;
+    height: 2.5em !important;
+  }
+
+  .usersettings-third-comp-table-cell-img {
+    width: 0.6em;
+  }
+
+  .usersettings-third-comp-table-cell-icon {
+    padding: 0.2em !important;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+  .user-settings-third-comp-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .usersettings-third-comp-table-container {
+    width: calc(100% - 3em) !important;
+    margin-left: 1em !important;
+    margin-right: 1.5em !important;
+    margin-bottom: 1em !important;
+  }
+
+  .usersettings-third-comp-table-cell {
+    font-size: 0.65em !important;
+  }
+
+  .usersettings-third-comp-table-cell-img {
+    width: 0.5em;
+  }
+
+  .usersettings-third-comp-table-cell-icon {
+    padding: 0.1em !important;
+  }
+}

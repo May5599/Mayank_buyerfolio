@@ -1,0 +1,187 @@
+.landing-main7{
+    background: var(--Primary, #fff);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 3rem 8rem;
+}
+.landing-main7-header{
+    color: var(--Black, #171717);
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -1.5px;
+}
+
+.landing-main7-post-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+.landing-main7-post{
+    background: #F5C34E;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+    width: 25%;
+    border-radius: 0.8rem;
+}
+
+.main7-post-tag{
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    background-color: #222;
+    border-radius: 10rem;
+}
+
+.main7-post-head{
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 1rem 0rem;
+}
+
+.main7-post-about{
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px; /* 158.333% */
+}
+
+.main7-post-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width:100%;
+}
+
+.main7-post-button span{
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37px;
+    
+}
+
+.main7-post-arrrow-wrap{
+    background-color: black;
+    border-radius: 10rem;
+    width: fit-content;
+    height: fit-content;
+}
+
+/* laptop */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .landing-main7{
+        padding: 4rem 5rem;
+    }
+    .landing-main7-post{
+        padding: 1.5rem 1.5rem 1.5rem 2rem;
+        width: 30%;
+        justify-content: flex-start;
+        border-radius: 0.8rem;
+    }
+    .main7-post-about{
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 38px; /* 158.333% */
+    }
+    .main7-post-button{
+        margin-top: auto;
+    }
+    .main7-post-button span{
+        color: #000;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 1rem;
+    }
+}
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .landing-main7{
+        width:100%;
+        padding:3rem 2rem;
+    }
+    .landing-main7-header{
+        font-size: 2rem;
+    }
+
+    .landing-main7-post-wrapper{
+        align-items: normal;
+        justify-content: space-around;
+        margin-top: 4rem;
+    }
+    .landing-main7-post{
+        padding: 1.5rem 1.5rem 1rem 1.5rem;
+        width: 32%;
+        justify-content: flex-start;
+        border-radius: 0.8rem;
+    }
+    .main7-post-head{
+        font-size: 1.2rem;
+    }
+    .main7-post-about{
+       line-height: 24px; 
+    }
+    .main7-post-button{
+        margin-top: auto;
+    }
+    .main7-post-button span{
+        color: #000;
+        font-family: 'DM Sans', sans-serif;
+        font-size: .9rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        
+    }
+    
+}
+
+
+/* mobile */
+@media screen and (max-width: 767px) {
+    .landing-main7{
+        padding:2.5rem 0rem;
+    }
+    .landing-main7-header{
+        font-size: 1.5rem;
+        
+    }
+    .landing-main7-post-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .landing-main7-post{
+         width: 80%;
+         margin:1rem ;
+         padding-bottom: 1rem;
+    }
+    .main7-post-head{
+        font-size: 1.2rem;
+    }
+    .main7-post-about{
+       line-height: 30px; 
+    }
+}

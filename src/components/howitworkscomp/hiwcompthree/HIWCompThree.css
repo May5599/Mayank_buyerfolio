@@ -1,0 +1,39 @@
+.hiw-main3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background: var(--Primary, #7731E4);
+    padding: 0.5rem 0rem;
+}
+
+.hiw-main3-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 40%;
+}
+
+.hiw-main3-head{
+    color: var(--Gray-Light, #FFF);
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hiw-main3-bio{
+    color: var(--Gray-Light, #FFF);
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1.5rem;
+}
+
+.hiw-main3-image{
+    height: 60vh;
+}

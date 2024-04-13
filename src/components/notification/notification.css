@@ -1,0 +1,139 @@
+/* body{ overflow:hidden;
+position:relative; } */
+.notifications-container{
+    /* height:100vh; */
+    /* height:700px; */
+    padding:20px 20px 10px 20px;
+    background-color: white;
+    position: absolute;
+  top: 8%;
+  left:65%;
+  border: 2px solid #000;
+  /* background-color: lightgray; */
+  /* background-color: rgb(100, 33, 33); */
+  box-shadow: 2px solid black;
+  height: 100vh;
+  width: 25vw;
+  margin: auto;
+                    
+  }
+
+.notifications-container>h1{
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.2800000011920929px;
+  text-align: center;
+
+}
+.notifications-container hr{
+  margin:20px 0px;
+}
+.section{
+  display:flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-size: raleway;
+  line-height: 22px;
+  font-weight: 700;
+  padding:10px;
+  border-bottom: 1px solid #CBCBCB;
+}
+
+.bedbath{
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+/* .notif-style{
+  position: absolute;
+  top: -75%;
+  left:20%;
+  border: 2px solid #000;
+ 
+  background-color: rgb(100, 33, 33);
+  box-shadow: 2px solid black;
+  height: 700px;
+  width: 450px;
+  margin: auto;
+                    
+} */
+@media only screen and (min-width: 1024px) and (max-width: 1440px){
+  .notifications-container{
+    padding:20px 10px 10px 20px;
+    background-color: white;
+    position: absolute;
+    top: 8%;
+    left:45%;
+    border: 2px solid #000;
+    box-shadow: 2px solid black;
+    height: 50vh;
+    width: 40vw;
+    margin: auto;
+          
+  }
+  .section,.bedbath{
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+  .notifications-container{
+    padding:20px 10px 10px 20px;
+    background-color: white;
+    position: absolute;
+    top: 8%;
+    left:45%;
+    border: 2px solid #000;
+    box-shadow: 2px solid black;
+    height: 80vh;
+    width: 50vw;
+    margin: auto;
+          
+  }
+
+}
+
+@media only screen and (min-width:390px) and (max-width : 767px){ 
+  .notifications-container{
+    padding:20px 10px 10px 20px;
+    position: absolute;
+    top: 8%;
+    left:5%;
+    width:90vw;   
+    height:80vh;        
+  }
+  .section,.bedbath{
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .section{
+    padding:5px;
+  }
+}
+@media only screen and (min-width:360px) and (max-width : 380px){ 
+  .notifications-container{
+    padding:20px 8px 10px 10px;
+    position: absolute;
+    top: 8%;
+    left:5%;
+    width:80vw;   
+    height:90vh;        
+  }
+  .section,.bedbath{
+    font-size: 9px;
+    line-height: 18px;
+  }
+  .section{
+    padding:5px;
+  }
+  .thumbing img{
+    height:70px;
+    width:80px;
+  }
+}

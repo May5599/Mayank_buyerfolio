@@ -1,0 +1,273 @@
+.user-settings-fourth-comp-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 60vw;
+  height: 1px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.user-settings-fourth-comp-description {
+  margin: 1em 0 0 2.7em;
+  font-size: 1rem;
+}
+
+.user-settings-fourth-comp-friend-card-group {
+  display: flex;
+  gap: 1.2em;
+  margin-left: 2.7em;
+  margin-top: 1.3em;
+}
+
+.user-settings-fourth-comp-friend-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+  padding: 0.6em 1.2em 0.8em 1.2em;
+  background: rgba(119, 49, 228, 0.17);
+  border-radius: 0.625em;
+}
+
+.user-settings-fourth-comp-friend-card-send {
+  font-size: 0.9em;
+  font-weight: 500;
+  line-height: 130%;
+  margin-bottom: 0.2em;
+}
+
+.user-settings-fourth-comp-friend-card-email {
+  font-size: 0.85em;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.user-settings-fourth-comp-friend-card img {
+  position: absolute;
+  right: 1em;
+  top: 0.7em;
+  width: 0.8em;
+}
+
+.user-settings-fourth-comp-button-group {
+  display: flex;
+  margin-top: 2.8em;
+  margin-left: 2.7em;
+  gap: 2em;
+}
+
+@media screen and (min-width: 1440px) {
+  .user-settings-fourth-comp-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  .user-settings-fourth-comp-description {
+    margin: 1em 0 0 3.5em;
+    font-size: 1rem;
+  }
+
+  .user-settings-fourth-comp-friend-card-group {
+    flex-direction: row;
+    margin-left: 3.5em;
+    gap: 0.5em;
+  }
+
+  .user-settings-fourth-comp-friend-card {
+    width: 23%;
+  }
+
+  .user-settings-fourth-comp-friend-card-send {
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 130%;
+    margin-bottom: 0.2em;
+  }
+
+  .user-settings-fourth-comp-friend-card-email {
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 130%;
+  }
+
+  .user-settings-fourth-comp-friend-card img {
+    position: absolute;
+    right: 1em;
+    top: 0.9em;
+    width: 0.9em;
+  }
+
+  .user-settings-fourth-comp-button-group {
+    display: flex;
+    margin-top: 2.5em;
+    margin-left: 3.5em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    width: calc(100% - 2em);
+    justify-content: flex-start;
+    gap: 1.5em;
+  }
+}
+
+/* laptop */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .user-settings-fourth-comp-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  .user-settings-fourth-comp-description {
+    margin: 1em 0 0 2.6em;
+    font-size: 1rem;
+  }
+
+  .user-settings-fourth-comp-friend-card-group {
+    flex-direction: row;
+    margin-left: 2.6em;
+    gap: 0.5em;
+  }
+
+  .user-settings-fourth-comp-friend-card {
+    width: 23%;
+  }
+
+  .user-settings-fourth-comp-friend-card-send {
+    font-size: 0.65em;
+    font-weight: 500;
+    line-height: 130%;
+    margin-bottom: 0.2em;
+  }
+
+  .user-settings-fourth-comp-friend-card-email {
+    font-size: 0.6em;
+    font-weight: 400;
+    line-height: 130%;
+  }
+
+  .user-settings-fourth-comp-friend-card img {
+    position: absolute;
+    right: 1em;
+    top: 0.7em;
+    width: 0.7em;
+  }
+
+  .user-settings-fourth-comp-button-group {
+    display: flex;
+    margin-top: 2.5em;
+    margin-left: 2.6em;
+    margin-right: 1em;
+    margin-bottom: 1.5em;
+    width: calc(100% - 2em);
+    justify-content: flex-start;
+    gap: 1.5em;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .user-settings-fourth-comp-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  .user-settings-fourth-comp-description {
+    margin: 1em 0 0 2em;
+    font-size: 1rem;
+  }
+
+  .user-settings-fourth-comp-friend-card-group {
+    flex-direction: row;
+    margin-left: 2em;
+    gap: 0.5em;
+  }
+
+  .user-settings-fourth-comp-friend-card {
+    width: 23%;
+  }
+
+  .user-settings-fourth-comp-friend-card-send {
+    font-size: 0.65em;
+    font-weight: 500;
+    line-height: 130%;
+    margin-bottom: 0.2em;
+  }
+
+  .user-settings-fourth-comp-friend-card-email {
+    font-size: 0.6em;
+    font-weight: 400;
+    line-height: 130%;
+  }
+
+  .user-settings-fourth-comp-friend-card img {
+    position: absolute;
+    right: 1em;
+    top: 0.7em;
+    width: 0.7em;
+  }
+
+  .user-settings-fourth-comp-button-group {
+    display: flex;
+    margin-top: 2.5em;
+    margin-left: 2em;
+    margin-right: 1em;
+    margin-bottom: 1.5em;
+    width: calc(100% - 2em);
+    justify-content: flex-start;
+    gap: 1.5em;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+  .user-settings-fourth-comp-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .user-settings-fourth-comp-description {
+    margin: 1em 0 0 1.1em;
+    font-size: 1rem;
+  }
+
+  .user-settings-fourth-comp-friend-card-group {
+    flex-direction: column;
+    margin-left: 1.1em;
+    gap: 0.5em;
+  }
+
+  .user-settings-fourth-comp-friend-card {
+    width: 60%;
+  }
+
+  .user-settings-fourth-comp-button-group {
+    display: flex;
+    margin-top: 1.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    width: calc(100% - 2em);
+    justify-content: flex-start;
+    gap: 1em;
+  }
+}

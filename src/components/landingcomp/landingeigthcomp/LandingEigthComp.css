@@ -1,0 +1,254 @@
+.landing-main8{
+    background: #E7E2EF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 3rem 8rem;
+}
+
+.landing-main8-header{
+    color: #000;
+    text-align: center;
+    font-family: 'Anton',sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+}
+
+.landing-main8-about{
+    color: #000;
+    text-align: center;
+    font-family:'DM Sans',sans-serif;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    margin: 1.5rem 0rem;
+}
+
+.main8-cobuyer-btn{
+    padding:0rem 2rem;
+    border-radius: 0.2rem;
+    background: var(--Primary, #7731E4);
+    cursor: pointer;
+    width: fit-content;
+}
+
+.main8-cobuyer-btn span{
+    color: var(--Gray-Light, #FFF);
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.chart-wrapper{
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    border-radius: 0.4rem;
+}
+
+.chart-value-changer{
+    width:50%;
+    padding: 3rem 1rem 1rem 3rem;
+   
+}
+.canvas-chart{
+    width:50%;
+ }
+.chart-value-wrapper{
+     margin-bottom: 3rem;
+     padding-right:2rem;
+}
+
+.chart-value-head{
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22.5px;
+}
+
+.chart-value-cont{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chart-value{
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px;
+}
+.chart-value button{
+	border: none;
+	background:white;
+	color:grey;
+	margin-left:10px;
+	font-family: Raleway;
+	font-size: 1.1rem;
+}
+.chart-value button:hover{
+	color:blueviolet;
+	font-family: DM Sans;
+	font-weight: 700;
+}
+
+  .filled-circle{
+    padding: 3px 11px;
+    border-radius: 100%;
+   }
+  .colmn1{
+    padding-right:10px;
+    padding-bottom: 5px;
+  }
+ 
+  .colmn2,.colmn3{
+    font-size: 1.2rem;
+    font-family: DM Sans;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  .colmn2{
+    padding-right:8rem;
+    
+  }
+/* laptop */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .landing-main8{
+        padding: 4rem 5rem;
+    }
+    .landing-main8-about{
+        font-size: 1.4rem;
+    }
+    .main8-cobuyer-btn span{
+        font-size: 1.2rem;
+        line-height: 40px;
+    }
+    .chart-wrapper{
+        width: 120%;
+        padding:4rem 2rem 2rem 4rem;
+     }
+    .chart-value-head{
+        font-size: 1.5rem;
+        line-height: 25px;
+    }
+    .chart-value{
+        font-size: 1.5rem;
+        line-height: 25px;
+    }
+    .canvas-chart{
+        width:40%;
+      }
+}
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .landing-main8{
+        padding: 3rem 4rem 0rem 4rem;
+    }
+    .landing-main8-header{
+        font-size: 2rem;
+        text-align:left;
+    }
+    .chart-wrapper{
+        width: 120%;
+        display: flex;
+        flex-direction: column-reverse;
+        padding:3rem;
+        border-radius: 0.4rem;
+     }
+    .chart-value-wrapper{
+        padding-right:0rem;
+   }
+   
+     .chart-value-changer{
+        width:100%;
+     }
+    .canvas-chart{
+        width:60%;
+       
+    }
+    .chart-value-cont{
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+     }
+    .chart-value button{
+		font-size: 1.2rem;
+	}
+    .chart-value-head{
+        font-size: 1.4rem;
+    }
+    .chart-value{
+        font-size: 1.4rem;
+    }
+    .legend{
+        padding-top:20px;
+       }
+    .colmn2{
+        padding-right:2rem;
+        
+      }
+}
+/* mobile */
+@media screen and (max-width: 767px) {
+
+    .landing-main8{
+        padding:2.5rem 2rem;
+       }
+     .landing-main8-header{
+        width: 100%;
+       font-size: 1.5rem;
+       line-height: 34px;
+      }
+      .chart-wrapper{
+        width: 120%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4rem;
+        border-radius: 0.4rem;
+        padding:2em 0em 2em 0em;
+     }
+    .chart-value-wrapper{
+        width:98%;
+        padding-right:0rem;
+   }
+   
+     .chart-value-changer{
+        width:100%;
+     }
+    .canvas-chart{
+        width:100%;
+    }
+    .chart-value-cont{
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+     }
+    .chart-value button{
+		font-size: 1rem;
+	}
+    .legend{
+        padding-top:20px;
+     }
+    .colmn2{
+        padding-right:2rem;
+     }
+}

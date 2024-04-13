@@ -1,0 +1,183 @@
+.articles .group {
+    height: 492px;
+    left: 0;
+    position: relative;
+    top: 3663px;
+    width: 1976px;
+  }
+  
+  .articles .footer {
+    background-color: transparent;
+    width: 1988px;
+  }
+  
+  .articles .overlap-group {
+    height: 492px;
+    position: relative;
+    width: 1920px;
+  }
+  
+  .articles .rectangle {
+    height: 491px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+  }
+  
+  .articles .city {
+    height: 194px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 298px;
+    width: 1159px;
+  }
+  
+  .articles .frame {
+    align-items: flex-start;
+    display: flex;
+    gap: 400.2px;
+    height: 24px;
+    left: 408px;
+    position: absolute;
+    top: 63px;
+    width: 1123px;
+  }
+  
+  .articles .our-markets {
+    height: 15.19px;
+    position: relative;
+    width: 126.72px;
+  }
+  
+  .articles .resources {
+    height: 14.28px;
+    position: relative;
+    width: 101.6px;
+  }
+  
+  .articles .connect {
+    height: 14.49px;
+    position: relative;
+    width: 82.17px;
+  }
+  
+  .articles .logo-white {
+    height: 51px;
+    left: 58px;
+    position: absolute;
+    top: 51px;
+    width: 250px;
+  }
+  
+  .articles .img {
+    height: 194px;
+    left: 1235px;
+    position: absolute;
+    top: 297px;
+    width: 685px;
+  }
+  
+  .articles .toronto-ottawa {
+    color: #ffffff;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-size: 16.2px;
+    font-weight: 400;
+    left: 408px;
+    letter-spacing: 0;
+    line-height: 22.6px;
+    position: absolute;
+    top: 102px;
+    width: 259px;
+  }
+  
+  .articles .frame-2 {
+    height: 150px;
+    left: 1412px;
+    position: absolute;
+    top: 100px;
+    width: 54px;
+  }
+  
+  .articles .media-inquiries {
+    color: #ffffff;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-size: 16.2px;
+    font-weight: 400;
+    left: 937px;
+    letter-spacing: 0;
+    line-height: 22.6px;
+    position: absolute;
+    top: 90px;
+    width: 179px;
+  }
+  
+  .articles .text-wrapper {
+    color: #ffffff;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-size: 16.2px;
+    font-weight: 400;
+    left: 1460px;
+    letter-spacing: 0;
+    line-height: 22.6px;
+    position: absolute;
+    top: 100px;
+    width: 150px;
+  }
+  
+  .articles .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-size: 16.2px;
+    font-weight: 400;
+    left: 1460px;
+    letter-spacing: 0;
+    line-height: 22.6px;
+    position: absolute;
+    top: 135px;
+    width: 150px;
+  }
+  
+  .articles .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-size: 16.2px;
+    font-weight: 400;
+    left: 1460px;
+    letter-spacing: 0;
+    line-height: 22.6px;
+    position: absolute;
+    top: 175px;
+    width: 150px;
+  }
+  
+  .articles .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-size: 16.2px;
+    font-weight: 400;
+    left: 1460px;
+    letter-spacing: 0;
+    line-height: 22.6px;
+    position: absolute;
+    top: 210px;
+    width: 150px;
+  }
+  
+  .text-wrapper a,
+  .text-wrapper-2 a,
+  .text-wrapper-3 a,
+  .text-wrapper-4 a {
+      color: #ffffff;
+      text-decoration: none;
+      transition: 0.3s;      
+  }
+  
+  .text-wrapper a:hover,
+  .text-wrapper-2 a:hover,
+  .text-wrapper-3 a:hover,
+  .text-wrapper-4 a:hover {
+      color: gray;
+  }
+  

@@ -1,0 +1,36 @@
+.purple-button {}
+
+.purple-button:hover {}
+
+@media screen and (min-width: 1440px) {
+    .purple-button {
+        font-size: 1.2rem !important;
+        height: 2.5em !important;
+    }
+}
+
+/* laptop */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .purple-button {
+        font-size: 1.2rem !important;
+        height: 2.5em !important;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .purple-button {
+        font-size: 0.75rem !important;
+        height: 2.5em !important;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+    .purple-button {
+        font-size: 0.75rem !important;
+        height: 2.5em !important;
+    }
+
+    .purple-button:hover {}
+}

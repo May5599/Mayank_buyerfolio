@@ -1,0 +1,33 @@
+.card-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 120%;
+    color: #273653;
+}
+
+@media screen and (min-width: 1440px) {
+    .card-title {
+        font-size: 1.8rem;
+    }
+}
+
+/* laptop */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .card-title {
+        font-size: 1.3rem;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .card-title {
+        font-size: 1rem;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+    .card-title {
+        font-size: 1.1rem;
+    }
+}

@@ -1,0 +1,171 @@
+
+.highlights-container{
+  font-family: DM Sans;
+  padding:20px;
+  line-height: 20px;
+}
+.highlights-container>h3{
+  font-size: 28px;
+}
+.highlights-content{
+  display: flex;
+  flex-direction: row;
+  margin-top:20px;
+}
+.col1-col2  , .col3-col4{
+  display:flex;
+}
+.key{
+  margin: 4px;
+}
+.high-icon{
+  height:1.6em;
+  width:1.6em;
+  vertical-align: middle;
+}
+.column1 .key-icon, .column3 .key-icon{
+  font-weight:400;
+ }
+.column2>.key, .column4>.key{
+  text-align: right;
+  font-weight: 700;
+}
+.column2{
+  margin-right:9em;
+}
+.column2, .column4{
+    margin-left:3.5em;
+}
+.key-icon{
+  margin:12px;
+  font-size:22px;
+  line-height: 30px;
+}
+.column4{
+  padding-left:40px;
+}
+
+@media only screen and (max-width:1375px){
+  .column2{
+   margin-right:3em;
+  }
+  .column2, .column4{
+    margin-left:1em;
+  }
+  .column4{
+    padding-left:6px;
+  }
+
+}
+
+@media only screen and (min-width: 1024px)and  (max-width:1350px){
+  .column2{
+     margin-right:2.5em;
+  }
+  .column2, .column4{
+    margin-left:.5em;
+   }
+  .column4{
+    padding-left:6px;
+  }
+  .key-icon{
+    margin:5px;
+    font-size:17px;
+}
+.high-icon{
+  height:1em;
+  width:1em;
+  vertical-align: middle;
+}
+}
+
+@media only screen and (min-width: 760px) and (max-width:1024px){
+  .highlights-container>h3{
+    font-size: 22px;
+  }
+  .key-icon{
+    margin:9px;
+    font-size:16px;
+    line-height: 16px;
+  }
+  .column2{
+    margin-right:80px;
+  }
+  .column2, .column4{
+    margin-left:20px;
+  }
+}
+
+@media only screen 
+and (min-width : 320px) and (max-width : 400px){
+  .highlights-container{
+    margin-top: 10px;
+  }
+  .highlights-container>h3{
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .highlights-content{
+    display:flex;
+    flex-direction: column;
+   }
+  .column2{
+    margin-right:0;
+  }
+  .column4{
+    padding:0;
+  }
+  .column2>.key, .column4>.key{
+    text-align:left;
+    font-weight: 700;
+  }
+  .column2, .column4{
+    margin-left:4em;
+  }
+  .high-icon{
+  height:1.2em;
+  width:1.2em;
+  }
+  .key-icon{
+    margin:9px;
+    font-size:14px;
+    line-height: 24px;
+  }
+ }
+
+ @media only screen 
+and (min-width : 400px) and (max-width : 480px){
+  .highlights-container{
+    margin-top: 10px;
+  }
+  .highlights-container>h3{
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .highlights-content{
+    display:flex;
+    flex-direction: column;
+   }
+  .column2{
+    margin-right:0;
+  }
+  .column4{
+    padding:0;
+  }
+  .column2>.key, .column4>.key{
+    text-align:left;
+    font-weight: 700;
+  }
+  .column2, .column4{
+    margin-left:5em;
+  }
+  .high-icon{
+  height:1.4em;
+  width:1.4em;
+  }
+  .key-icon{
+    margin:9px;
+    font-size:15px;
+    line-height: 25px;
+  }
+ }

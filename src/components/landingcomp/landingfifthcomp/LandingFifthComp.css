@@ -1,0 +1,163 @@
+.landing-main5{
+    background: var(--Primary, #7731E4);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 3rem 8rem;
+}
+
+.landing-main5-text-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 8rem;
+}
+
+.landing-main5-head{
+    color: #FFF;
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.landing-main5-about{
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    width: 70%;
+    margin:2rem 0rem;
+
+}
+
+.main5-couple{
+    height: 50vh;
+}
+
+.main5-cobuyer-btn{
+    padding:0rem 2rem;
+    border-radius: 0.2rem;
+    background: var(--Primary, #fff);
+    cursor: pointer;
+}
+
+.main5-cobuyer-btn span{
+    color: var(--Gray-Light, #171717);
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+/* laptop */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .landing-main5{
+        align-items: flex-start;
+        padding: 5rem 5rem;
+     }
+    .landing-main5-text-cont{
+        margin-left: 5rem;
+        padding-right:10px;
+        height:25vh;
+    }
+    
+    .main5-couple{
+        width:60%;
+        border-radius: 0.8rem;
+        height: 25vh;
+    }
+    .landing-main5-head{
+        font-size: 2.6rem;
+    }
+    .landing-main5-about{
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        width: 100%;
+    }
+    .main5-cobuyer-btn{
+      margin-top:auto;
+      padding:0rem 2rem;
+    }
+    .main5-cobuyer-btn span{
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+    }
+}
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .landing-main5{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+         padding: 3rem 5rem;
+    }
+    .main5-couple{
+        width:95%;
+        border-radius: 0.8rem;
+    }
+    .landing-main5-text-cont{
+        width:95%;
+        margin-left: 0rem;
+        justify-content: center;
+        align-items: center;
+        padding:2rem 0;
+    }
+    .landing-main5-about{
+        text-align: center;
+        width: 100%;
+        padding:0 2rem;
+        font-size: 1.4rem;
+        line-height: 2rem;
+       }
+}
+/* mobile */
+@media screen and (max-width: 767px) {
+    .landing-main5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding:2.5rem 2.5rem;
+    }
+    .main5-couple{
+        height:32vh;
+        width:100%;
+        border-radius: 0.8rem;
+    }
+    .landing-main5-text-cont{
+        margin-left: 0rem;
+        justify-content: center;
+        align-items: center;
+        padding:2rem 0;
+    }
+    .landing-main5-head{
+        font-size: 1.8rem;
+     }
+    
+    .landing-main5-about{
+        text-align: center;
+        width: 100%;
+        margin:1.4rem 0rem;
+      }
+      .main5-cobuyer-btn{
+        padding:0rem 1rem;
+        text-align: center;
+       }
+    
+    .main5-cobuyer-btn span{
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 38px;
+    }
+}

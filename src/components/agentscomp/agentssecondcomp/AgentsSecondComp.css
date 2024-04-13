@@ -1,0 +1,200 @@
+.agents-second-main {
+    background: #7731E4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.agents-second-head {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.agents-second-banners-wrapper {
+    display: flex;
+}
+
+.agents-second-banner-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.agents-second-banner {
+    display: flex;
+    justify-content: center;
+    background: #FFF;
+    padding: 2em 7rem;
+    border-radius: 1em;
+}
+
+.agents-second-banner span {
+    color: var(--Primary, #7731E4);
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.agents-second-banner-text {
+    color: #FFF;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+@media screen and (min-width: 1440px) {
+    .agents-second-main {
+        padding: 6em 8em 6em 8em;
+    }
+
+    .agents-second-head {
+        font-size: 3rem;
+    }
+
+    .agents-second-banners-wrapper {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+    }
+
+    .agents-second-banner {
+        background: #FFF;
+        padding: 2em 7rem;
+        border-radius: 1em;
+    }
+
+    .agents-second-banner span {
+        font-size: 4.5rem;
+        font-weight: 700;
+        line-height: 72px;
+    }
+
+    .agents-second-banner-text {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 0.8em;
+        margin-top: 1.2em;
+    }
+}
+
+/* laptop */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .agents-second-main {
+        padding: 6em 8em 6em 8em;
+    }
+
+    .agents-second-head {
+        font-size: 3rem;
+    }
+
+    .agents-second-banners-wrapper {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+    }
+
+    .agents-second-banner {
+        background: #FFF;
+        padding: 2em 3rem;
+        border-radius: 1em;
+    }
+
+    .agents-second-banner span {
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 72px;
+    }
+
+    .agents-second-banner-text {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 0.8em;
+        margin-top: 1.2em;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .agents-second-main {
+        padding: 6em 8em 5em 8em;
+    }
+
+    .agents-second-head {
+        font-size: 2.3rem;
+    }
+
+    .agents-second-banners-wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 4em;
+        width: 100%;
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+    }
+
+    .agents-second-banner {
+        background: #FFF;
+        padding: 2em 6rem;
+        border-radius: 1em;
+    }
+
+    .agents-second-banner span {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 72px;
+    }
+
+    .agents-second-banner-text {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 0.8em;
+        margin-top: 1.1em;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+    .agents-second-main {
+        padding: 3em 2em 2em 2em;
+    }
+
+    .agents-second-head {
+        font-size: 1.5rem;
+    }
+
+    .agents-second-banners-wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 4em;
+        width: 100%;
+        margin-top: 3em;
+        margin-bottom: 2rem;
+    }
+
+    .agents-second-banner {
+        background: #FFF;
+        padding: 0.5em 3rem;
+        width: 10em;
+        border-radius: 1em;
+    }
+
+    .agents-second-banner span {
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 72px;
+    }
+
+    .agents-second-banner-text {
+        font-size: 1.2rem;
+        font-weight: 700;
+        line-height: 0.8em;
+        margin-top: 1.1em;
+    }
+}

@@ -1,0 +1,1596 @@
+.primary-applicant {
+  background-color: #fbfafa;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.primary-applicant .div {
+  background-color: #fbfafa;
+  height: 982px;
+  position: relative;
+  width: 1512px;
+}
+
+.primary-applicant .next-button {
+  all: unset;
+  box-sizing: border-box;
+  height: 56px;
+  left: 723px;
+  position: absolute;
+  top: 823px;
+  width: 307px;
+}
+
+.primary-applicant .overlap-group {
+  background-color: #7731e4;
+  border-radius: 39px;
+  height: 56px;
+  position: relative;
+  width: 305px;
+}
+
+.primary-applicant .text-wrapper {
+  color: #ffffff;
+  font-family: "Open Sans-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 128px;
+  letter-spacing: 0;
+  line-height: 21.1px;
+  position: absolute;
+  top: 17px;
+  white-space: nowrap;
+}
+
+.primary-applicant .text-wrapper-2 {
+  color: var(--primaryblack);
+  font-family: "Raleway-Bold", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  height: 44px;
+  left: 666px;
+  letter-spacing: -0.28px;
+  line-height: 43.7px;
+  position: absolute;
+  top: 210px;
+  white-space: nowrap;
+}
+
+.primary-applicant .group {
+  height: 72px;
+  left: 584px;
+  position: absolute;
+  top: 322px;
+  width: 273px;
+}
+
+.primary-applicant .text-wrapper-3 {
+  color: #000000;
+  font-family: "Raleway-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 18px;
+  left: 0;
+  letter-spacing: -0.28px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.primary-applicant .overlap {
+  border: 1px solid;
+  border-color: #d8cdcd;
+  border-radius: 6px;
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 24px;
+  width: 269px;
+}
+
+.primary-applicant .text-wrapper-4 {
+  color: var(--primaryblack);
+  font-family: "Raleway-Bold", Helvetica;
+  font-size: 15px;
+  font-weight: 700;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 14px;
+  width: 158px;
+}
+
+.primary-applicant .group-2 {
+  height: 72px;
+  left: 584px;
+  position: absolute;
+  top: 417px;
+  width: 271px;
+}
+
+.primary-applicant .div-wrapper {
+  height: 18px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 112px;
+}
+
+.primary-applicant .text-wrapper-5 {
+  color: #000000;
+  font-family: "Raleway-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 18px;
+  left: 0;
+  letter-spacing: -0.28px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 110px;
+}
+
+.primary-applicant .group-3 {
+  height: 18px;
+  left: 584px;
+  position: absolute;
+  top: 503px;
+  width: 130px;
+}
+
+.primary-applicant .group-4 {
+  height: 72px;
+  left: 898px;
+  position: absolute;
+  top: 322px;
+  width: 271px;
+}
+
+.primary-applicant .group-5 {
+  height: 18px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 80px;
+}
+
+.primary-applicant .text-wrapper-6 {
+  color: #000000;
+  font-family: "Raleway-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 18px;
+  left: 0;
+  letter-spacing: -0.28px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 78px;
+}
+
+.primary-applicant .group-6 {
+  height: 72px;
+  left: 898px;
+  position: absolute;
+  top: 417px;
+  width: 271px;
+}
+
+.primary-applicant .group-7 {
+  height: 18px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 43px;
+}
+
+.primary-applicant .text-wrapper-7 {
+  color: #000000;
+  font-family: "Raleway-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  height: 18px;
+  left: 0;
+  letter-spacing: -0.28px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 41px;
+}
+
+.primary-applicant .text-wrapper-8 {
+  color: var(--primaryblack);
+  font-family: "Raleway-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  left: 584px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 605px;
+  white-space: nowrap;
+}
+
+.primary-applicant .text-wrapper-9 {
+  color: var(--primaryblack);
+  font-family: "Raleway-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  left: 584px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 281px;
+  white-space: nowrap;
+}
+
+.primary-applicant .text-wrapper-10 {
+  color: var(--primarypurple);
+  font-family: "Raleway-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  left: 1120px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 605px;
+  white-space: nowrap;
+}
+
+.primary-applicant .group-8 {
+  height: 34px;
+  left: 584px;
+  position: absolute;
+  top: 749px;
+  width: 597px;
+}
+
+.primary-applicant .p {
+  color: #000000;
+  font-family: "Raleway-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 34px;
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 17.1px;
+  position: absolute;
+  top: 0;
+  width: 572px;
+}
+
+.primary-applicant .subscribe {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #181818;
+  border-radius: 5px;
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 15px;
+}
+
+.primary-applicant .text-wrapper-11 {
+  color: #a2a2a2;
+  font-family: "Raleway-SemiBold", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  left: 812px;
+  letter-spacing: 0;
+  line-height: 21.1px;
+  position: absolute;
+  top: 177px;
+  white-space: nowrap;
+}
+
+.primary-applicant .text-wrapper-12 {
+  color: #000000;
+  font-family: "Raleway-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 32px;
+  left: 584px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 631px;
+  width: 583px;
+}
+
+.primary-applicant .back-button {
+  height: 20px;
+  left: 584px;
+  position: absolute;
+  top: 180px;
+  width: 20px;
+}
+
+.primary-applicant .overlap-2 {
+  border-radius: 10px;
+  height: 20px;
+  position: relative;
+}
+
+.primary-applicant .vector {
+  height: 11px;
+  left: 6px;
+  position: absolute;
+  top: 5px;
+  width: 6px;
+}
+
+.primary-applicant .ellipse {
+  border: 0.28px solid;
+  border-color: #787878;
+  border-radius: 10px;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.primary-applicant .overlap-wrapper {
+  height: 20px;
+  left: 1157px;
+  position: absolute;
+  top: 180px;
+  transform: rotate(-180deg);
+  width: 20px;
+}
+
+.primary-applicant .img {
+  height: 11px;
+  left: 6px;
+  position: absolute;
+  top: 5px;
+  transform: rotate(180deg);
+  width: 6px;
+}
+
+.primary-applicant .group-9 {
+  height: 18px;
+  left: 612px;
+  position: absolute;
+  top: 533px;
+  width: 227px;
+}
+
+.primary-applicant .text-wrapper-13 {
+  color: var(--primaryblack);
+  font-family: "Raleway-Bold", Helvetica;
+  font-size: 15px;
+  font-weight: 700;
+  left: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.primary-applicant .vector-2 {
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 15px;
+}
+
+.primary-applicant .group-10 {
+  height: 18px;
+  left: 898px;
+  position: absolute;
+  top: 533px;
+  width: 179px;
+}
+
+.primary-applicant .text-wrapper-14 {
+  color: var(--primaryblack);
+  font-family: "Raleway-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.primary-applicant .overlap-group-wrapper {
+  height: 982px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1512px;
+}
+
+.primary-applicant .overlap-3 {
+  height: 982px;
+  position: relative;
+}
+
+.primary-applicant .rectangle-wrapper {
+  background-color: #ececec;
+  border-radius: 18px;
+  height: 13px;
+  left: 330px;
+  position: absolute;
+  top: 131px;
+  width: 1103px;
+}
+
+.primary-applicant .rectangle {
+  background-color: var(--primarypurple);
+  border-radius: 18px;
+  height: 13px;
+  width: 133px;
+}
+
+.primary-applicant .overlap-4 {
+  height: 982px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1512px;
+}
+
+.primary-applicant .group-11 {
+  height: 882px;
+  left: 0;
+  position: absolute;
+  top: 100px;
+  width: 291px;
+}
+
+.primary-applicant .overlap-5 {
+  background-color: #ffffff;
+  box-shadow: 4px 4px 15px #b2b2b240;
+  height: 882px;
+  position: relative;
+  width: 289px;
+}
+
+.primary-applicant .vector-3 {
+  height: 12px;
+  left: 253px;
+  position: absolute;
+  top: 28px;
+  width: 15px;
+}
+
+.primary-applicant .group-12 {
+  height: 255px;
+  left: 0;
+  position: absolute;
+  top: 78px;
+  width: 289px;
+}
+
+.primary-applicant .tasks-wrapper {
+  background: #7731E4;
+  background-size: 100% 100%;
+  height: 51px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 289px;
+}
+
+.primary-applicant .tasks {
+  height: 25px;
+  left: 34px;
+  position: relative;
+  top: 13px;
+  width: 93px;
+}
+
+.primary-applicant .text-wrapper-15 {
+  color: #ffffff;
+  font-family: "Raleway-Bold", Helvetica;
+  font-size: 17px;
+  font-weight: 700;
+  height: 25px;
+  left: 45px;
+  letter-spacing: 0;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.primary-applicant .vector-4 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 22px;
+}
+
+.primary-applicant .favorites-wrapper {
+  height: 51px;
+  left: 0;
+  position: absolute;
+  top: 51px;
+  width: 289px;
+}
+
+.primary-applicant .favorites {
+  height: 25px;
+  left: 33px;
+  position: relative;
+  top: 13px;
+  width: 149px;
+}
+
+.primary-applicant .text-wrapper-16 {
+  color: #181818;
+  font-family: "Raleway-Regular", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  height: 25px;
+  left: 43px;
+  letter-spacing: 0;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.primary-applicant .house-care {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 24px;
+}
+
+.primary-applicant .saved-searches-wrapper {
+  height: 51px;
+  left: 0;
+  position: absolute;
+  top: 102px;
+  width: 289px;
+}
+
+.primary-applicant .saved-searches {
+  height: 25px;
+  left: 34px;
+  position: relative;
+  top: 13px;
+  width: 172px;
+}
+
+.primary-applicant .text-wrapper-17 {
+  color: #181818;
+  font-family: "Raleway-Regular", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  height: 25px;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.primary-applicant .saved-searches-icon {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 21px;
+}
+
+.primary-applicant .hidden-homes-wrapper {
+  height: 51px;
+  left: 0;
+  position: absolute;
+  top: 153px;
+  width: 289px;
+}
+
+.primary-applicant .hidden-homes {
+  height: 25px;
+  left: 34px;
+  position: relative;
+  top: 13px;
+  width: 164px;
+}
+
+.primary-applicant .vector-5 {
+  height: 19px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  width: 20px;
+}
+
+.primary-applicant .group-13 {
+  height: 51px;
+  left: 0;
+  position: absolute;
+  top: 204px;
+  width: 289px;
+}
+
+.primary-applicant .hidden-homes-2 {
+  height: 25px;
+  left: 34px;
+  position: relative;
+  top: 13px;
+  width: 183px;
+}
+
+.primary-applicant .mortgage {
+  height: 23px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 23px;
+}
+
+.primary-applicant .line {
+  height: 1px;
+  left: 15px;
+  object-fit: cover;
+  position: absolute;
+  top: 62px;
+  width: 252px;
+}
+
+.primary-applicant .text-wrapper-18 {
+  color: #252525;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 22.1px;
+  font-weight: 600;
+  height: 36px;
+  left: 31px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  top: 16px;
+  white-space: nowrap;
+}
+
+.primary-applicant .group-14 {
+  height: 113px;
+  left: 18px;
+  position: absolute;
+  top: 738px;
+  width: 256px;
+}
+
+.primary-applicant .overlap-6 {
+  border: 1px dashed;
+  border-color: #000000;
+  border-radius: 15px;
+  height: 113px;
+  position: relative;
+  width: 254px;
+}
+
+.primary-applicant .text-wrapper-19 {
+  color: var(--primaryblack);
+  font-family: "Raleway-SemiBold", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  height: 20px;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: 19.5px;
+  position: absolute;
+  top: 13px;
+  white-space: nowrap;
+}
+
+.primary-applicant .image {
+  height: 85px;
+  left: 153px;
+  object-fit: cover;
+  position: absolute;
+  top: 15px;
+  width: 88px;
+}
+
+.primary-applicant .group-15 {
+  height: 26px;
+  left: 15px;
+  position: absolute;
+  top: 71px;
+  width: 102px;
+}
+
+.primary-applicant .overlap-group-2 {
+  border: 0.76px solid;
+  border-color: #050505;
+  border-radius: 3.03px;
+  height: 26px;
+  position: relative;
+  width: 100px;
+}
+
+.primary-applicant .google-play {
+  height: 11px;
+  left: 19px;
+  position: absolute;
+  top: 7px;
+  width: 11px;
+}
+
+.primary-applicant .text-wrapper-20 {
+  color: #020202;
+  font-family: "DM Sans-Bold", Helvetica;
+  font-size: 7.6px;
+  font-weight: 700;
+  height: 9px;
+  left: 39px;
+  letter-spacing: 0;
+  line-height: 8.5px;
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+}
+
+.primary-applicant .group-16 {
+  height: 26px;
+  left: 15px;
+  position: absolute;
+  top: 37px;
+  width: 102px;
+}
+
+.primary-applicant .apple-logo {
+  height: 11px;
+  left: 19px;
+  position: absolute;
+  top: 6px;
+  width: 11px;
+}
+
+.primary-applicant .text-wrapper-21 {
+  color: #020202;
+  font-family: "DM Sans-Bold", Helvetica;
+  font-size: 7.6px;
+  font-weight: 700;
+  height: 9px;
+  left: 41px;
+  letter-spacing: 0;
+  line-height: 8.5px;
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+}
+
+.primary-applicant .navigation-bar {
+  height: 117px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1512px;
+}
+
+.primary-applicant .group-17 {
+  height: 61px;
+  left: 33px;
+  position: fixed;
+  top: 20px;
+  width: 304px;
+}
+.primary-applicant {
+background-color: #fbfafa;
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100%;
+}
+
+.primary-applicant .div {
+background-color: #fbfafa;
+height: 982px;
+position: relative;
+width: 1512px;
+}
+
+.primary-applicant .next-button {
+all: unset;
+box-sizing: border-box;
+height: 56px;
+left: 723px;
+position: absolute;
+top: 823px;
+width: 307px;
+}
+
+.primary-applicant .overlap-group {
+background-color: #7731e4;
+border-radius: 39px;
+height: 56px;
+position: relative;
+width: 305px;
+}
+
+.primary-applicant .text-wrapper {
+color: #ffffff;
+font-family: "Open Sans-Bold", Helvetica;
+font-size: 20px;
+font-weight: 700;
+left: 128px;
+letter-spacing: 0;
+line-height: 21.1px;
+position: absolute;
+top: 17px;
+white-space: nowrap;
+}
+
+.primary-applicant .text-wrapper-2 {
+color: var(--primaryblack);
+font-family: "Raleway-Bold", Helvetica;
+font-size: 36px;
+font-weight: 700;
+height: 44px;
+left: 666px;
+letter-spacing: -0.28px;
+line-height: 43.7px;
+position: absolute;
+top: 210px;
+white-space: nowrap;
+}
+
+.primary-applicant .group {
+height: 72px;
+left: 584px;
+position: absolute;
+top: 322px;
+width: 273px;
+}
+
+.primary-applicant .text-wrapper-3 {
+color: #000000;
+font-family: "Raleway-Regular", Helvetica;
+font-size: 15px;
+font-weight: 400;
+height: 18px;
+left: 0;
+letter-spacing: -0.28px;
+line-height: normal;
+position: absolute;
+top: 0;
+white-space: nowrap;
+}
+
+.primary-applicant .overlap {
+border: 1px solid;
+border-color: #d8cdcd;
+border-radius: 6px;
+height: 48px;
+left: 0;
+position: absolute;
+top: 24px;
+width: 269px;
+}
+
+.primary-applicant .text-wrapper-4 {
+color: var(--primaryblack);
+font-family: "Raleway-Bold", Helvetica;
+font-size: 15px;
+font-weight: 700;
+left: 27px;
+letter-spacing: 0;
+line-height: normal;
+position: absolute;
+top: 14px;
+width: 158px;
+}
+
+.primary-applicant .group-2 {
+height: 72px;
+left: 584px;
+position: absolute;
+top: 417px;
+width: 271px;
+}
+
+.primary-applicant .div-wrapper {
+height: 18px;
+left: 0;
+position: absolute;
+top: 0;
+width: 112px;
+}
+
+.primary-applicant .text-wrapper-5 {
+color: #000000;
+font-family: "Raleway-Regular", Helvetica;
+font-size: 15px;
+font-weight: 400;
+height: 18px;
+left: 0;
+letter-spacing: -0.28px;
+line-height: normal;
+position: absolute;
+top: 0;
+width: 110px;
+}
+
+.primary-applicant .group-3 {
+height: 18px;
+left: 584px;
+position: absolute;
+top: 503px;
+width: 130px;
+}
+
+.primary-applicant .group-4 {
+height: 72px;
+left: 898px;
+position: absolute;
+top: 322px;
+width: 271px;
+}
+
+.primary-applicant .group-5 {
+height: 18px;
+left: 0;
+position: absolute;
+top: 0;
+width: 80px;
+}
+
+.primary-applicant .text-wrapper-6 {
+color: #000000;
+font-family: "Raleway-Regular", Helvetica;
+font-size: 15px;
+font-weight: 400;
+height: 18px;
+left: 0;
+letter-spacing: -0.28px;
+line-height: normal;
+position: absolute;
+top: 0;
+width: 78px;
+}
+
+.primary-applicant .group-6 {
+height: 72px;
+left: 898px;
+position: absolute;
+top: 417px;
+width: 271px;
+}
+
+.primary-applicant .group-7 {
+height: 18px;
+left: 0;
+position: absolute;
+top: 0;
+width: 43px;
+}
+
+.primary-applicant .text-wrapper-7 {
+color: #000000;
+font-family: "Raleway-Regular", Helvetica;
+font-size: 15px;
+font-weight: 400;
+height: 18px;
+left: 0;
+letter-spacing: -0.28px;
+line-height: normal;
+position: absolute;
+top: 0;
+width: 41px;
+}
+
+.primary-applicant .text-wrapper-8 {
+color: var(--primaryblack);
+font-family: "Raleway-Bold", Helvetica;
+font-size: 16px;
+font-weight: 700;
+left: 584px;
+letter-spacing: 0;
+line-height: normal;
+position: absolute;
+top: 605px;
+white-space: nowrap;
+}
+
+.primary-applicant .text-wrapper-9 {
+color: var(--primaryblack);
+font-family: "Raleway-Bold", Helvetica;
+font-size: 16px;
+font-weight: 700;
+left: 584px;
+letter-spacing: 0;
+line-height: normal;
+position: absolute;
+top: 281px;
+white-space: nowrap;
+}
+
+.primary-applicant .text-wrapper-10 {
+color: var(--primarypurple);
+font-family: "Raleway-Bold", Helvetica;
+font-size: 16px;
+font-weight: 700;
+left: 1120px;
+letter-spacing: 0;
+line-height: normal;
+position: absolute;
+text-align: right;
+top: 605px;
+white-space: nowrap;
+}
+
+.primary-applicant .group-8 {
+height: 34px;
+left: 584px;
+position: absolute;
+top: 749px;
+width: 597px;
+}
+
+.primary-applicant .p {
+color: #000000;
+font-family: "Raleway-Regular", Helvetica;
+font-size: 12px;
+font-weight: 400;
+height: 34px;
+left: 23px;
+letter-spacing: 0;
+line-height: 17.1px;
+position: absolute;
+top: 0;
+width: 572px;
+}
+
+.primary-applicant .subscribe {
+background-color: #ffffff;
+border: 1px solid;
+border-color: #181818;
+border-radius: 5px;
+height: 15px;
+left: 0;
+position: absolute;
+top: 1px;
+width: 15px;
+}
+
+.primary-applicant .text-wrapper-11 {
+color: #a2a2a2;
+font-family: "Raleway-SemiBold", Helvetica;
+font-size: 15px;
+font-weight: 600;
+left: 812px;
+letter-spacing: 0;
+line-height: 21.1px;
+position: absolute;
+top: 177px;
+white-space: nowrap;
+}
+
+.primary-applicant .text-wrapper-12 {
+color: #000000;
+font-family: "Raleway-Regular", Helvetica;
+font-size: 14px;
+font-weight: 400;
+height: 32px;
+left: 584px;
+letter-spacing: 0;
+line-height: 20px;
+position: absolute;
+top: 631px;
+width: 583px;
+}
+
+.primary-applicant .back-button {
+height: 20px;
+left: 584px;
+position: absolute;
+top: 180px;
+width: 20px;
+}
+
+.primary-applicant .overlap-2 {
+border-radius: 10px;
+height: 20px;
+position: relative;
+}
+
+.primary-applicant .vector {
+height: 11px;
+left: 6px;
+position: absolute;
+top: 5px;
+width: 6px;
+}
+
+.primary-applicant .ellipse {
+border: 0.28px solid;
+border-color: #787878;
+border-radius: 10px;
+height: 20px;
+left: 0;
+position: absolute;
+top: 0;
+width: 20px;
+}
+
+.primary-applicant .overlap-wrapper {
+height: 20px;
+left: 1157px;
+position: absolute;
+top: 180px;
+transform: rotate(-180deg);
+width: 20px;
+}
+
+.primary-applicant .img {
+height: 11px;
+left: 6px;
+position: absolute;
+top: 5px;
+transform: rotate(180deg);
+width: 6px;
+}
+
+.primary-applicant .group-9 {
+height: 18px;
+left: 612px;
+position: absolute;
+top: 533px;
+width: 227px;
+}
+
+.primary-applicant .text-wrapper-13 {
+color: var(--primaryblack);
+font-family: "Raleway-Bold", Helvetica;
+font-size: 15px;
+font-weight: 700;
+left: 19px;
+letter-spacing: 0;
+line-height: normal;
+position: absolute;
+top: 0;
+white-space: nowrap;
+}
+
+.primary-applicant .vector-2 {
+height: 15px;
+left: 0;
+position: absolute;
+top: 1px;
+width: 15px;
+}
+
+.primary-applicant .group-10 {
+height: 18px;
+left: 898px;
+position: absolute;
+top: 533px;
+width: 179px;
+}
+
+.primary-applicant .text-wrapper-14 {
+color: var(--primaryblack);
+font-family: "Raleway-Regular", Helvetica;
+font-size: 15px;
+font-weight: 400;
+left: 19px;
+letter-spacing: 0;
+line-height: normal;
+position: absolute;
+top: 0;
+white-space: nowrap;
+}
+
+.primary-applicant .overlap-group-wrapper {
+height: 982px;
+left: 0;
+position: fixed;
+top: 0;
+width: 1512px;
+}
+
+.primary-applicant .overlap-3 {
+height: 982px;
+position: relative;
+}
+
+.primary-applicant .rectangle-wrapper {
+background-color: #ececec;
+border-radius: 18px;
+height: 13px;
+left: 330px;
+position: absolute;
+top: 131px;
+width: 1103px;
+}
+
+.primary-applicant .rectangle {
+background-color: var(--primarypurple);
+border-radius: 18px;
+height: 13px;
+width: 133px;
+}
+
+.primary-applicant .overlap-4 {
+height: 982px;
+left: 0;
+position: absolute;
+top: 0;
+width: 1512px;
+}
+
+.primary-applicant .group-11 {
+height: 882px;
+left: 0;
+position: absolute;
+top: 100px;
+width: 291px;
+}
+
+.primary-applicant .overlap-5 {
+background-color: #ffffff;
+box-shadow: 4px 4px 15px #b2b2b240;
+height: 882px;
+position: relative;
+width: 289px;
+}
+
+.primary-applicant .vector-3 {
+height: 12px;
+left: 253px;
+position: absolute;
+top: 28px;
+width: 15px;
+}
+
+.primary-applicant .group-12 {
+height: 255px;
+left: 0;
+position: absolute;
+top: 78px;
+width: 289px;
+}
+
+.primary-applicant .tasks-wrapper {
+background: #7731E4;
+background-size: 100% 100%;
+height: 51px;
+left: 0;
+position: absolute;
+top: 0;
+width: 289px;
+}
+
+.primary-applicant .tasks {
+height: 25px;
+left: 34px;
+position: relative;
+top: 13px;
+width: 93px;
+}
+
+.primary-applicant .text-wrapper-15 {
+color: #ffffff;
+font-family: "Raleway-Bold", Helvetica;
+font-size: 17px;
+font-weight: 700;
+height: 25px;
+left: 45px;
+letter-spacing: 0;
+line-height: 25px;
+position: absolute;
+top: 0;
+white-space: nowrap;
+}
+
+.primary-applicant .vector-4 {
+height: 24px;
+left: 0;
+position: absolute;
+top: 1px;
+width: 22px;
+}
+
+.primary-applicant .favorites-wrapper {
+height: 51px;
+left: 0;
+position: absolute;
+top: 51px;
+width: 289px;
+}
+
+.primary-applicant .favorites {
+height: 25px;
+left: 33px;
+position: relative;
+top: 13px;
+width: 149px;
+}
+
+.primary-applicant .text-wrapper-16 {
+color: #181818;
+font-family: "Raleway-Regular", Helvetica;
+font-size: 17px;
+font-weight: 400;
+height: 25px;
+left: 43px;
+letter-spacing: 0;
+line-height: 25px;
+position: absolute;
+top: 0;
+white-space: nowrap;
+}
+
+.primary-applicant .house-care {
+height: 24px;
+left: 0;
+position: absolute;
+top: 1px;
+width: 24px;
+}
+
+.primary-applicant .saved-searches-wrapper {
+height: 51px;
+left: 0;
+position: absolute;
+top: 102px;
+width: 289px;
+}
+
+.primary-applicant .saved-searches {
+height: 25px;
+left: 34px;
+position: relative;
+top: 13px;
+width: 172px;
+}
+
+.primary-applicant .text-wrapper-17 {
+color: #181818;
+font-family: "Raleway-Regular", Helvetica;
+font-size: 17px;
+font-weight: 400;
+height: 25px;
+left: 44px;
+letter-spacing: 0;
+line-height: 25px;
+position: absolute;
+top: 0;
+white-space: nowrap;
+}
+
+.primary-applicant .saved-searches-icon {
+height: 24px;
+left: 0;
+position: absolute;
+top: 0;
+width: 21px;
+}
+
+.primary-applicant .hidden-homes-wrapper {
+height: 51px;
+left: 0;
+position: absolute;
+top: 153px;
+width: 289px;
+}
+
+.primary-applicant .hidden-homes {
+height: 25px;
+left: 34px;
+position: relative;
+top: 13px;
+width: 164px;
+}
+
+.primary-applicant .vector-5 {
+height: 19px;
+left: 0;
+position: absolute;
+top: 3px;
+width: 20px;
+}
+
+.primary-applicant .group-13 {
+height: 51px;
+left: 0;
+position: absolute;
+top: 204px;
+width: 289px;
+}
+
+.primary-applicant .hidden-homes-2 {
+height: 25px;
+left: 34px;
+position: relative;
+top: 13px;
+width: 183px;
+}
+
+.primary-applicant .mortgage {
+height: 23px;
+left: 0;
+position: absolute;
+top: 1px;
+width: 23px;
+}
+
+.primary-applicant .line {
+height: 1px;
+left: 15px;
+object-fit: cover;
+position: absolute;
+top: 62px;
+width: 252px;
+}
+
+.primary-applicant .text-wrapper-18 {
+color: #252525;
+font-family: "Montserrat-SemiBold", Helvetica;
+font-size: 22.1px;
+font-weight: 600;
+height: 36px;
+left: 31px;
+letter-spacing: 0;
+line-height: 36px;
+position: absolute;
+top: 16px;
+white-space: nowrap;
+}
+
+.primary-applicant .group-14 {
+height: 113px;
+left: 18px;
+position: absolute;
+top: 738px;
+width: 256px;
+}
+
+.primary-applicant .overlap-6 {
+border: 1px dashed;
+border-color: #000000;
+border-radius: 15px;
+height: 113px;
+position: relative;
+width: 254px;
+}
+
+.primary-applicant .text-wrapper-19 {
+color: var(--primaryblack);
+font-family: "Raleway-SemiBold", Helvetica;
+font-size: 12px;
+font-weight: 600;
+height: 20px;
+left: 15px;
+letter-spacing: 0;
+line-height: 19.5px;
+position: absolute;
+top: 13px;
+white-space: nowrap;
+}
+
+.primary-applicant .image {
+height: 85px;
+left: 153px;
+object-fit: cover;
+position: absolute;
+top: 15px;
+width: 88px;
+}
+
+.primary-applicant .group-15 {
+height: 26px;
+left: 15px;
+position: absolute;
+top: 71px;
+width: 102px;
+}
+
+.primary-applicant .overlap-group-2 {
+border: 0.76px solid;
+border-color: #050505;
+border-radius: 3.03px;
+height: 26px;
+position: relative;
+width: 100px;
+}
+
+.primary-applicant .google-play {
+height: 11px;
+left: 19px;
+position: absolute;
+top: 7px;
+width: 11px;
+}
+
+.primary-applicant .text-wrapper-20 {
+color: #020202;
+font-family: "DM Sans-Bold", Helvetica;
+font-size: 7.6px;
+font-weight: 700;
+height: 9px;
+left: 39px;
+letter-spacing: 0;
+line-height: 8.5px;
+position: absolute;
+top: 8px;
+white-space: nowrap;
+}
+
+.primary-applicant .group-16 {
+height: 26px;
+left: 15px;
+position: absolute;
+top: 37px;
+width: 102px;
+}
+
+.primary-applicant .apple-logo {
+height: 11px;
+left: 19px;
+position: absolute;
+top: 6px;
+width: 11px;
+}
+
+.primary-applicant .text-wrapper-21 {
+color: #020202;
+font-family: "DM Sans-Bold", Helvetica;
+font-size: 7.6px;
+font-weight: 700;
+height: 9px;
+left: 41px;
+letter-spacing: 0;
+line-height: 8.5px;
+position: absolute;
+top: 8px;
+white-space: nowrap;
+}
+
+.primary-applicant .navigation-bar {
+height: 117px;
+left: 0;
+position: absolute;
+top: 0;
+width: 1512px;
+}
+
+.primary-applicant .group-17 {
+height: 61px;
+left: 33px;
+position: fixed;
+top: 20px;
+width: 304px;
+}
+
+
+/* Media query for tablets (landscape) and larger */
+@media only screen and (min-width: 768px) {
+.container {
+    padding: 0 20px; /* Add padding to the sides */
+}
+}
+
+/* Media query for smaller devices like mobile phones */
+@media only screen and (max-width: 767px) {
+.container {
+    padding: 0 10px; /* Adjust padding for smaller screens */
+}
+/* Additional styles for smaller screens */
+.grid-item {
+    width: 100%; /* Make grid items full width on smaller screens */
+}
+.button {
+    width: 100%; /* Make buttons full width on smaller screens */
+}
+}

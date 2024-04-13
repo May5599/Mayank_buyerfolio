@@ -1,0 +1,96 @@
+.range{
+	margin: 20px;
+	font-size: 28px;
+	font-family:DM Sans;
+	line-height: 28px;
+	font-weight:700;
+	}
+.slider-container{
+	display:flex;
+	flex-direction: column;
+	margin:20px;
+}
+.slider-container .value{
+	border: 1px solid rgba(237, 237, 237, 1);;
+	margin:4px;
+	border-radius: 10px;
+	padding:3px;
+	font-size: 25px;
+	font-weight:400;
+}
+.range-heading, .frequency{
+	display:flex;
+	justify-content:space-between;
+ }
+.frequency{
+	padding: 0px 20px;
+}
+
+input[type="range"],.frequency{
+  accent-color:blueviolet;
+	margin:15px 0px;
+}
+
+.period button{
+	border: none;
+	background:white;
+	color:grey;
+	margin-left:10px;
+	font-family: Raleway;
+	font-size: 30px;
+}
+.period button:hover{
+	color:blueviolet;
+	font-family: DM Sans;
+	font-weight: 700;
+}
+
+@media only screen and (min-width: 1024px)and  (max-width:1375px){
+	.range{
+		margin: 15px;
+		font-size: 24px;
+		line-height: 26px;
+		font-weight:700;
+		}
+	.slider-container .value{
+		margin:2px;
+		border-radius: 10px;
+		padding:3px;
+		font-size: 23px;
+		font-weight:400;
+	}
+}
+
+@media only screen and (min-width : 320px) and (max-width : 400px){
+	.range{
+		margin: 10px;
+		font-size: 16px;
+		line-height: 15px;
+	}
+	.slider-container .value{
+	  font-size: 18px;
+	}
+	input[type="range"],.frequency{
+		margin:5px 0px;
+	}
+	.period button{
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width : 400px) and (max-width : 480px){
+	.range{
+		margin: 10px;
+		font-size: 18px;
+		line-height: 15px;
+	}
+	.slider-container .value{
+	  font-size: 18px;
+	}
+	input[type="range"],.frequency{
+		margin:5px 0px;
+	}
+	.period button{
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,155 @@
+
+.blog-content {
+  margin-bottom: 20px; /* Ajusta el valor según la cantidad de espacio que desees */
+}
+
+.grid-section,
+.category-section {
+  display: grid;
+  grid-gap: 30px;
+  padding-top: 30px;
+}
+
+.grid-section {
+  grid-template-columns: repeat(2, minmax(100px, 1fr));
+  border-top: 1px solid #ccc;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.category-section {
+  grid-template-columns: 1fr;
+  margin: 190px;
+}
+
+.category-section h2 {
+  text-align: left;
+  color: #707070;
+  font-family: "DM Sans-Regular", Helvetica;
+  margin-left: 10px;
+}
+
+.grid-section .article .centered-category {
+  border-right: 1px solid #ccc;
+  padding-right: 0px;
+}
+
+.centered-category {
+  padding-top: 10px;
+  grid-template-columns: repeat(auto-fit, 1fr);
+  line-height: 33.4px;
+  text-align: center;
+}
+
+.grid-section img {
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.grid-section .article img {
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+.featured-posts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 20px 0;
+  margin: 190px;
+}
+
+.featured-posts .article {
+  padding: 20px;
+}
+
+.featured-posts .article img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.featured-posts .article h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.featured-posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 196px;
+  margin-right: 210px;
+}
+
+
+
+
+
+.article[data-id="1"] {
+  grid-column: 1;
+}
+
+.article[data-id="2"],
+.article[data-id="3"] {
+  grid-column: 2;
+}
+
+.article[data-id="4"],
+.article[data-id="5"] {
+  grid-column: 1; 
+}
+
+.article[data-id="6"] {
+  grid-column: 2; 
+}
+
+.article[data-id="7"],
+.article[data-id="9"] {
+  grid-column: 2; 
+}
+
+.article[data-id="7"] {
+  grid-column: 1;
+}
+
+.article[data-id="10"] {
+  grid-column: center; 
+}
+
+.see-all-button {
+  background-color: white;
+  color: var(--Primary, #7731E4);
+  font-family: "DM Sans";
+  font-size: 21.831px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30.564px;
+  width: 80px;
+  height: 40.024px;
+  flex-shrink: 0;
+  border: none;
+  margin-left: 1200px;
+  cursor: pointer;
+}
+
+
+.lets-talk-button {
+  border-radius: 8px;
+  background: #6345F9;
+  color: white; 
+  font-family: "DM Sans";
+  font-size: 16px; 
+  font-weight: 700;
+  line-height: 24px; 
+  padding: 10px 20px;
+  margin: 0 auto; 
+  display: block; 
+  border: 2px solid #6345F9;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
